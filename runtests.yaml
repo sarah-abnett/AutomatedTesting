@@ -8,7 +8,9 @@ stages:
   displayName: Run CAT tests
   jobs:
   - job: run_testing_pipeline
-
+    pool:
+      name: AeroPool
+      
     steps:
       - task: PowerShell@2
         displayName: 'Install CAT'
