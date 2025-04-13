@@ -3,14 +3,15 @@ variables:
 
 trigger: none
 
+pool:
+  vmImage: ubuntu-latest
+
 stages:
 - stage: run_testing_pipeline
   displayName: Run CAT tests
   jobs:
   - job: run_testing_pipeline
-    pool:
-    vmImage: ubuntu-latest
-      
+
     steps:
       - task: PowerShell@2
         displayName: 'Install CAT'
