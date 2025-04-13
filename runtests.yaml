@@ -1,1 +1,20 @@
+variables:
+- group: DemoSemanticModel
 
+trigger: none
+
+stages:
+- stage: run_testing_pipeline
+  displayName: Run CAT tests
+  jobs:
+  - job: run_testing_pipeline
+
+    steps:
+      - task: PowerShell@2
+        displayName: 'Install CAT'
+        inputs:
+          targetType: 'inline'
+          workingDirectory: $(System.DefaultWorkingDirectory)
+          pwsh: true # important! this tells the agent to use PowerShell 7
+          script: |
+              Install-Module CAT -AcceptLicense -Force -AllowClobber -Scope CurrentUser
