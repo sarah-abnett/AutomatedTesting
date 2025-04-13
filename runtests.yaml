@@ -9,7 +9,7 @@ stages:
   jobs:
   - job: run_testing_pipeline
     pool:
-      name: AeroPool
+    vmImage: ubuntu-latest
       
     steps:
       - task: PowerShell@2
