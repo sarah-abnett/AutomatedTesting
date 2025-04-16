@@ -1,0 +1,18 @@
+﻿Data Sources:
+- Name: SemanticModel 
+  Provider: Dax@1 
+  ConnectionString:   >
+      Provider=MSOLAP;
+      Data Source=powerbi://api.powerbi.com/v1.0/myorg/PBIBrum;
+      Initial Catalog=DemoSemanticModel;
+      User ID=%Demo_Service_Principle_Application_ID%;
+      Password=%Demo_Service_Principle_Secret%;
+
+Tests:
+- Name: Check metric exists
+  Description: > 
+    Check metric exists and is available for visualisation.
+  Data Source: SemanticModel
+  Query: |
+    EVALUATE ROW("Output", 'Trip'[Passenger Count] )
+  Expectation: set is not empty 

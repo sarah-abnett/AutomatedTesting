@@ -1,4 +1,4 @@
-variables:
+﻿variables:
 - group: DemoSemanticModel
 
 trigger: none
@@ -21,3 +21,19 @@ stages:
           pwsh: true # important! this tells the agent to use PowerShell 7
           script: |
               Install-Module CAT -AcceptLicense -Force -AllowClobber -Scope CurrentUser
+
+      - task: PowerShell@2
+        displayName: 'Execute tests'
+        inputs:
+          targetType: 'inline'
+          workingDirectory: $(System.DefaultWorkingDirectory)/tests
+          pwsh: true # important! this tells the agent to use PowerShell 7
+          script: |
+              # Specify the file path
+              $file = "$(System.DefaultWorkingDirectory)\tests\CATProject.cat.yaml"
+
+              #Import CAT module to session
+              Import-Module CAT
+
+              # Run CAT project
+              Invoke-CatProject -Path $file
