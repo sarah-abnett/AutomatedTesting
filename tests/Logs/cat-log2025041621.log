@@ -11,3 +11,5 @@
 2025-04-16 21:41:20.357 +01:00 [INF] Loaded data sources names: 'SemanticModel'
 2025-04-16 21:41:20.368 +01:00 [INF] Loaded 1 test(s) from test list # 1: Project file (Yaml@1) 
 2025-04-16 21:41:21.761 +01:00 [INF] Starting execution thread number 0.
+2025-04-16 21:41:41.835 +01:00 [INF] Going to finalize outputs.
+2025-04-16 21:41:41.842 +01:00 [INF] The execution took "00:00:20.0865273".
