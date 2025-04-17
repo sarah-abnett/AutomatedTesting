@@ -4,7 +4,7 @@
 trigger: none
 
 pool:
-  vmImage: ubuntu-latest
+  vmImage: windows-latest
 
 stages:
 - stage: run_testing_pipeline
@@ -30,7 +30,7 @@ stages:
           pwsh: true # important! this tells the agent to use PowerShell 7
           script: |
               # Specify the file path
-              $file = "$(System.DefaultWorkingDirectory)/tests/CATProject.cat.yaml"
+              $file = "$(System.DefaultWorkingDirectory)\tests\CATProject.cat.yaml"
 
               #Import CAT module to session
               Import-Module CAT
