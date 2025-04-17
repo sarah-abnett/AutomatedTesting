@@ -14,6 +14,14 @@ stages:
 
     steps:
       - task: PowerShell@2
+        displayName: 'Install MSOLAP Provider'
+        inputs:
+          targetType: 'inline'
+          script: |
+            Invoke-WebRequest -Uri "https://download.microsoft.com/download/3/9/9/39926f3f-21a9-4914-98aa-5b00e38e26c7/SQL_AS_OLEDB.msi" -OutFile "SQL_AS_OLEDB.msi"
+            Start-Process msiexec.exe -Wait -ArgumentList '/i SQL_AS_OLEDB.msi /quiet /norestart'
+            
+      - task: PowerShell@2
         displayName: 'Install CAT'
         inputs:
           targetType: 'inline'
