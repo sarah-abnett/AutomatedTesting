@@ -16,3 +16,5 @@ Tests:
   Query: |
     EVALUATE ROW("Output", 'Trip'[Passenger Count] )
   Expectation: set is not empty 
+
+Output: trx  

@@ -53,3 +53,14 @@ stages:
           # Set the environment variable values here - using the Library variables
           Demo_Service_Principle_Application_ID: $(Demo_Service_Principle_Application_ID)
           Demo_Service_Principle_Secret: $(Demo_Service_Principle_Secret)
+
+
+      - task: PublishTestResults@2
+        displayName: 'Publish test results'
+        inputs:
+          testResultsFormat: VSTest
+          searchFolder: $(System.DefaultWorkingDirectory)\tests
+          testResultsFiles: '**\*.trx' # Don't forget Output: trx in your project file
+          mergeTestResults: true
+          failTaskOnFailedTests: true
+        continueOnError: true          
