@@ -1,0 +1,109 @@
+{
+  "config": "{\"version\":\"5.59\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY24SU10\",\"version\":\"5.62\",\"type\":2}},\"activeSectionIndex\":0,\"defaultDrillFilterOtherVisuals\":true,\"slowDataSourceSettings\":{\"isCrossHighlightingDisabled\":false,\"isSlicerSelectionsButtonEnabled\":false,\"isFilterSelectionsButtonEnabled\":false,\"isFieldWellButtonEnabled\":false,\"isApplyAllButtonEnabled\":false},\"linguisticSchemaSyncVersion\":0,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true,\"useEnhancedTooltips\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}],\"outspacePane\":[{\"properties\":{\"expanded\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}",
+  "filters": "[{\"name\":\"d02c7e53a18233c2d47a\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Trip\"}},\"Property\":\"TripDistanceMiles\"}},\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"Trip\",\"Type\":0}],\"Where\":[{\"Condition\":{\"Comparison\":{\"ComparisonKind\":3,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"TripDistanceMiles\"}},\"Right\":{\"Literal\":{\"Value\":\"10000L\"}}}}}]},\"type\":\"Advanced\",\"howCreated\":1}]",
+  "layoutOptimization": 0,
+  "resourcePackages": [
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "CY24SU10",
+            "path": "BaseThemes/CY24SU10.json",
+            "type": 202
+          }
+        ],
+        "name": "SharedResources",
+        "type": 2
+      }
+    }
+  ],
+  "sections": [
+    {
+      "config": "{\"visibility\":1}",
+      "displayName": "Test",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "0f4a8eb36130bcbe10c3",
+      "ordinal": 1,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"9d99530957de961b6242\",\"layouts\":[{\"id\":0,\"position\":{\"x\":914.7663779928681,\"y\":0,\"z\":1000,\"width\":300.4707080998472,\"height\":619.3035150280183}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"Date.Year\"},{\"queryRef\":\"Trip.Journey Count\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"Date\",\"Type\":0},{\"Name\":\"t\",\"Entity\":\"Trip\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Year\"},\"Name\":\"Date.Year\",\"NativeReferenceName\":\"Year\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"Journey Count\"},\"Name\":\"Trip.Journey Count\",\"NativeReferenceName\":\"Journey Count\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 619.30,
+          "width": 300.47,
+          "x": 914.77,
+          "y": 0.00,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"c8a30ba64779f88073e3\",\"layouts\":[{\"id\":0,\"position\":{\"x\":20.03138053998981,\"y\":0,\"z\":0,\"width\":395.61976566479876,\"height\":719.4604177279674}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"Geography.Country\"},{\"queryRef\":\"Geography.State\"},{\"queryRef\":\"Trip.Journey Count\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"g\",\"Entity\":\"Geography\",\"Type\":0},{\"Name\":\"t\",\"Entity\":\"Trip\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"g\"}},\"Property\":\"State\"},\"Name\":\"Geography.State\",\"NativeReferenceName\":\"State\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"Journey Count\"},\"Name\":\"Trip.Journey Count\",\"NativeReferenceName\":\"Journey Count\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"g\"}},\"Property\":\"Country\"},\"Name\":\"Geography.Country\",\"NativeReferenceName\":\"Country\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"g\"}},\"Property\":\"Country\"}}}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 719.46,
+          "width": 395.62,
+          "x": 20.03,
+          "y": 0.00,
+          "z": 0.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{}",
+      "displayName": "Demo",
+      "displayOption": 1,
+      "filters": "[{\"name\":\"2cf9d84687f66ecc5e02\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Geography\"}},\"Property\":\"Country\"}},\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"g\",\"Entity\":\"Geography\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"g\"}},\"Property\":\"Country\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'United States'\"}}]]}}}]},\"type\":\"Categorical\",\"howCreated\":1,\"objects\":{}},{\"name\":\"c6451323b9c6a7597023\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Geography\"}},\"Property\":\"State\"}},\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"g\",\"Entity\":\"Geography\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"g\"}},\"Property\":\"State\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'NY'\"}}]]}}}]},\"type\":\"Categorical\",\"howCreated\":1,\"objects\":{}},{\"name\":\"5639d4e2bc7a053669d7\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Date\"}},\"Property\":\"WeekOfYear\"}},\"type\":\"Categorical\",\"howCreated\":1,\"objects\":{}}]",
+      "height": 720.00,
+      "name": "56ee0241a9b09b09d8ba",
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"2fa58d535644c9caf204\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":60.248382837180536,\"z\":1000,\"width\":707.9184983368714,\"height\":223.19287278319155,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"clusteredColumnChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Date.MonthName\",\"active\":true}],\"Y\":[{\"queryRef\":\"Trip.Journey Count\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"Trip\",\"Type\":0},{\"Name\":\"d\",\"Entity\":\"Date\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"MonthName\"},\"Name\":\"Date.MonthName\",\"NativeReferenceName\":\"MonthName\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"Journey Count\"},\"Name\":\"Trip.Journey Count\",\"NativeReferenceName\":\"Journey Count\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"categoryAxis\":[{\"properties\":{\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"valueAxis\":[{\"properties\":{\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":3,\"Percent\":0.4}}}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Journeys by Month'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 223.19,
+          "width": 707.92,
+          "x": 0.00,
+          "y": 60.25,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"43378ee47e0488728bc6\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":283.777890983189,\"z\":0,\"width\":707.7754457463067,\"height\":208.66021395822722,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"pivotTable\",\"projections\":{\"Values\":[{\"queryRef\":\"Trip.Average Number of Trips\"}],\"Rows\":[{\"queryRef\":\"Date.DayName\",\"active\":true}],\"Columns\":[{\"queryRef\":\"Time.HourNumber\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"Trip\",\"Type\":0},{\"Name\":\"d\",\"Entity\":\"Date\",\"Type\":0},{\"Name\":\"t1\",\"Entity\":\"Time\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"Average Number of Trips\"},\"Name\":\"Trip.Average Number of Trips\",\"NativeReferenceName\":\"Average Number of Trips\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"DayName\"},\"Name\":\"Date.DayName\",\"NativeReferenceName\":\"DayName\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t1\"}},\"Property\":\"HourNumber\"},\"Name\":\"Time.HourNumber\",\"NativeReferenceName\":\"HourNumber\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"values\":[{\"properties\":{\"backColor\":{\"solid\":{\"color\":{\"expr\":{\"FillRule\":{\"Input\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Trip\"}},\"Property\":\"Average Number of Trips\"}},\"FillRule\":{\"linearGradient3\":{\"min\":{\"color\":{\"Literal\":{\"Value\":\"'#f0e199'\"}}},\"mid\":{\"color\":{\"Literal\":{\"Value\":\"'#a0d1ff'\"}}},\"max\":{\"color\":{\"Literal\":{\"Value\":\"'#717bc5'\"}}},\"nullColoringStrategy\":{\"strategy\":{\"Literal\":{\"Value\":\"'asZero'\"}}}}}}}}}}},\"selector\":{\"data\":[{\"dataViewWildcard\":{\"matchingOption\":1}}],\"metadata\":\"Trip.Average Number of Trips\"}}],\"subTotals\":[{\"properties\":{\"rowSubtotals\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"columnSubtotals\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Average Journeys by Week Day and Hour'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 208.66,
+          "width": 707.78,
+          "x": 0.00,
+          "y": 283.78,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"51f9c0f03702179940ff\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":0,\"z\":2000,\"width\":531.04809125781,\"height\":54.888691602874424,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Taxi Data - Sample Report\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontFamily\":\"Arial\",\"fontSize\":\"28pt\"}}]}]}}]}}}",
+          "filters": "[]",
+          "height": 54.89,
+          "width": 531.05,
+          "x": 0.00,
+          "y": 0.00,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"66e643ea9e4930cac810\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":491.5720326942685,\"z\":4000,\"width\":707.9184983368714,\"height\":227.30071706754475,\"tabOrder\":4000}}],\"singleVisual\":{\"visualType\":\"columnChart\",\"projections\":{\"Y\":[{\"queryRef\":\"Trip.Average Distance\"}],\"Category\":[{\"queryRef\":\"Time.HourNumber\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"Trip\",\"Type\":0},{\"Name\":\"t1\",\"Entity\":\"Time\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"Average Distance\"},\"Name\":\"Trip.Average Distance\",\"NativeReferenceName\":\"Average Distance\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t1\"}},\"Property\":\"HourNumber\"},\"Name\":\"Time.HourNumber\",\"NativeReferenceName\":\"HourNumber\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t1\"}},\"Property\":\"HourNumber\"}}}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"FillRule\":{\"Input\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Trip\"}},\"Property\":\"Average Fare\"}},\"FillRule\":{\"linearGradient3\":{\"min\":{\"color\":{\"Literal\":{\"Value\":\"'#DBECFC'\"}}},\"mid\":{\"color\":{\"Literal\":{\"Value\":\"'#717bc5'\"}}},\"max\":{\"color\":{\"Literal\":{\"Value\":\"'#E044A7'\"}}},\"nullColoringStrategy\":{\"strategy\":{\"Literal\":{\"Value\":\"'asZero'\"}}}}}}}}}}},\"selector\":{\"data\":[{\"dataViewWildcard\":{\"matchingOption\":1}}]}}],\"categoryAxis\":[{\"properties\":{\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"axisType\":{\"expr\":{\"Literal\":{\"Value\":\"'Categorical'\"}}}}}],\"valueAxis\":[{\"properties\":{\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"legend\":[{\"properties\":{\"position\":{\"expr\":{\"Literal\":{\"Value\":\"'TopRight'\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Average Distance and Fare by Hour'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 227.30,
+          "width": 707.92,
+          "x": 0.00,
+          "y": 491.57,
+          "z": 4000.00
+        },
+        {
+          "config": "{\"name\":\"ac3faa15bd3577dbb65d\",\"layouts\":[{\"id\":0,\"position\":{\"x\":707.7754457463067,\"y\":55.08629648497198,\"z\":3000,\"width\":572.5636271013755,\"height\":664.3741212429954,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"map\",\"projections\":{\"Size\":[{\"queryRef\":\"Trip.Journey Count\"}],\"Category\":[{\"queryRef\":\"Geography.ZipCode\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"Trip\",\"Type\":0},{\"Name\":\"g\",\"Entity\":\"Geography\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"Journey Count\"},\"Name\":\"Trip.Journey Count\",\"NativeReferenceName\":\"Journey Count\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"g\"}},\"Property\":\"ZipCode\"},\"Name\":\"Geography.ZipCode\",\"NativeReferenceName\":\"ZipCode\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"mapStyles\":[{\"properties\":{\"mapTheme\":{\"expr\":{\"Literal\":{\"Value\":\"'grayscale'\"}}}}}],\"bubbles\":[{\"properties\":{\"markerRangeType\":{\"expr\":{\"Literal\":{\"Value\":\"'dataRange'\"}}}}}],\"heatMap\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"mapControls\":[{\"properties\":{\"autoZoom\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"showZoomButtons\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"centerLatitude\":{\"expr\":{\"Literal\":{\"Value\":\"40.76076097939958D\"}}},\"centerLongitude\":{\"expr\":{\"Literal\":{\"Value\":\"-73.96869505968128D\"}}},\"zoomLevel\":{\"expr\":{\"Literal\":{\"Value\":\"12D\"}}},\"showLassoButton\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 664.37,
+          "width": 572.56,
+          "x": 707.78,
+          "y": 55.09,
+          "z": 3000.00
+        }
+      ],
+      "width": 1280.00
+    }
+  ]
+}

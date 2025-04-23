@@ -1,0 +1,87 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 0,
+        "y": 0
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 286.77338946427136,
+            "y": 501.44623053120472
+          },
+          "nodeIndex": "Date",
+          "nodeLineageTag": "932381ff-04af-4cbf-88b2-f9f83b3cfa58",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 49.999999999999986,
+            "y": -50
+          },
+          "nodeIndex": "Geography",
+          "nodeLineageTag": "5392734a-00af-45e1-9164-0027fda60cd2",
+          "size": {
+            "height": 248,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 620.21608926739009,
+            "y": 155.91667194568214
+          },
+          "nodeIndex": "Time",
+          "nodeLineageTag": "54010b47-c4ad-4be9-99d0-2d3c2bd448f1",
+          "size": {
+            "height": 296,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 334.16920539022669,
+            "y": 151.23195712624118
+          },
+          "nodeIndex": "Trip",
+          "nodeLineageTag": "bfc7fc4d-078d-42dc-ab98-afe32c423adc",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 854.21608926739009,
+            "y": 337.72311526560236
+          },
+          "nodeIndex": "Weather",
+          "nodeLineageTag": "49db16ea-9fa7-4257-8eb1-f9e792a29584",
+          "size": {
+            "height": 176,
+            "width": 234
+          },
+          "zIndex": 0
+        }
+      ],
+      "name": "All tables",
+      "zoomValue": 100,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "All tables",
+  "defaultDiagram": "All tables"
+}
