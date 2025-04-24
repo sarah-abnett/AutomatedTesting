@@ -1,0 +1,235 @@
+﻿<TestRun id="14d735f7-dcf7-4142-b34a-130b3c850550" name="sarah@BART 2025-04-23 09:08:52" runUser="BART\sarah" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2025-04-23T09:08:52.0928980+01:00" queuing="2025-04-23T09:08:52.0928980+01:00" start="2025-04-23T09:08:52.0928980+01:00" finish="2025-04-23T09:09:09.0130155+01:00" />
+  <TestSettings name="default" id="ff23bd5e-9aa6-41e2-8f98-97025f126eca">
+    <Deployment runDeploymentRoot="sarah_BART_2025-04-23_09_08_52" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="6f90a622-003e-4018-9afb-3181227b995a" testId="66b264ae-3a41-4a6a-ad60-ab6ad0fedf9e" testName="[Check metric exists]" computerName="BART" duration="00:00:01.4875086" startTime="2025-04-23T09:09:05.2597330+01:00" endTime="2025-04-23T09:09:06.7472416+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="aec822df-6fc1-4edb-97b9-f4cc434da0e1" relativeResultsDirectory="6f90a622-003e-4018-9afb-3181227b995a">
+      <Output>
+        <ErrorInfo>
+          <Message>Error when executing the test: Query (1, 24) A single value for column &amp;#39;&amp;lt;oii&amp;gt;Year&amp;lt;/oii&amp;gt;&amp;#39; in table &amp;#39;&amp;lt;oii&amp;gt;Date&amp;lt;/oii&amp;gt;&amp;#39; cannot be determined. This can happen when a measure formula refers to a column that contains many values without specifying an aggregation such as min, max, count, or sum to get a single result. 
+ 
+Technical Details: 
+RootActivityId: ca73483c-a596-4c24-8b92-403a125bdad2 
+Date (UTC): 4/23/2025 8:09:05 AM
+
+Description: Check metric exists and is available for visualisation.
+
+First Data Source: SemanticModel
+First Query:
+
+EVALUATE ROW(&amp;quot;Output&amp;quot;, &amp;#39;Date&amp;#39;[Year] )
+
+
+</Message>
+          <StackTrace></StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="6f90a622-003e-4018-9afb-3181227b995a" testId="658d4e07-111c-4dbd-bf31-9766d5ad1b3c" testName="[Check metric exists]" computerName="BART" duration="00:00:00.1148871" startTime="2025-04-23T09:09:06.7792790+01:00" endTime="2025-04-23T09:09:06.8941661+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="aec822df-6fc1-4edb-97b9-f4cc434da0e1" relativeResultsDirectory="6f90a622-003e-4018-9afb-3181227b995a" />
+    <UnitTestResult executionId="6f90a622-003e-4018-9afb-3181227b995a" testId="2dc16a47-4b6f-4a15-a826-15536dd19f97" testName="[Check metric exists]" computerName="BART" duration="00:00:00.2923479" startTime="2025-04-23T09:09:06.9914653+01:00" endTime="2025-04-23T09:09:07.2838132+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="aec822df-6fc1-4edb-97b9-f4cc434da0e1" relativeResultsDirectory="6f90a622-003e-4018-9afb-3181227b995a">
+      <Output>
+        <ErrorInfo>
+          <Message>Error when executing the test: Query (1, 24) A single value for column &amp;#39;&amp;lt;oii&amp;gt;Country&amp;lt;/oii&amp;gt;&amp;#39; in table &amp;#39;&amp;lt;oii&amp;gt;Geography&amp;lt;/oii&amp;gt;&amp;#39; cannot be determined. This can happen when a measure formula refers to a column that contains many values without specifying an aggregation such as min, max, count, or sum to get a single result. 
+ 
+Technical Details: 
+RootActivityId: d6069e4e-c007-41a4-b5d7-7755b010d207 
+Date (UTC): 4/23/2025 8:09:07 AM
+
+Description: Check metric exists and is available for visualisation.
+
+First Data Source: SemanticModel
+First Query:
+
+EVALUATE ROW(&amp;quot;Output&amp;quot;, &amp;#39;Geography&amp;#39;[Country] )
+
+
+</Message>
+          <StackTrace></StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="6f90a622-003e-4018-9afb-3181227b995a" testId="0b80aeab-4476-41a3-b2be-a64b996229c6" testName="[Check metric exists]" computerName="BART" duration="00:00:00.2023360" startTime="2025-04-23T09:09:07.2984691+01:00" endTime="2025-04-23T09:09:07.5008051+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="aec822df-6fc1-4edb-97b9-f4cc434da0e1" relativeResultsDirectory="6f90a622-003e-4018-9afb-3181227b995a">
+      <Output>
+        <ErrorInfo>
+          <Message>Error when executing the test: Query (1, 24) A single value for column &amp;#39;&amp;lt;oii&amp;gt;State&amp;lt;/oii&amp;gt;&amp;#39; in table &amp;#39;&amp;lt;oii&amp;gt;Geography&amp;lt;/oii&amp;gt;&amp;#39; cannot be determined. This can happen when a measure formula refers to a column that contains many values without specifying an aggregation such as min, max, count, or sum to get a single result. 
+ 
+Technical Details: 
+RootActivityId: bb302234-9649-45b2-b8c5-c8aab6bc3dcd 
+Date (UTC): 4/23/2025 8:09:07 AM
+
+Description: Check metric exists and is available for visualisation.
+
+First Data Source: SemanticModel
+First Query:
+
+EVALUATE ROW(&amp;quot;Output&amp;quot;, &amp;#39;Geography&amp;#39;[State] )
+
+
+</Message>
+          <StackTrace></StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="6f90a622-003e-4018-9afb-3181227b995a" testId="3a1af925-5db1-4ee6-b9ff-b17599821d77" testName="[Check metric exists]" computerName="BART" duration="00:00:00.0819220" startTime="2025-04-23T09:09:07.5285540+01:00" endTime="2025-04-23T09:09:07.6104760+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="aec822df-6fc1-4edb-97b9-f4cc434da0e1" relativeResultsDirectory="6f90a622-003e-4018-9afb-3181227b995a" />
+    <UnitTestResult executionId="6f90a622-003e-4018-9afb-3181227b995a" testId="744c2591-35c3-47b8-9154-edf8fdbea02b" testName="[Check metric exists]" computerName="BART" duration="00:00:00.0675829" startTime="2025-04-23T09:09:07.6250080+01:00" endTime="2025-04-23T09:09:07.6925909+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="aec822df-6fc1-4edb-97b9-f4cc434da0e1" relativeResultsDirectory="6f90a622-003e-4018-9afb-3181227b995a" />
+    <UnitTestResult executionId="6f90a622-003e-4018-9afb-3181227b995a" testId="b4800aba-1a2f-48ed-8f56-6219aadfd02b" testName="[Check metric exists]" computerName="BART" duration="00:00:00.2324777" startTime="2025-04-23T09:09:07.7061803+01:00" endTime="2025-04-23T09:09:07.9386580+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="aec822df-6fc1-4edb-97b9-f4cc434da0e1" relativeResultsDirectory="6f90a622-003e-4018-9afb-3181227b995a">
+      <Output>
+        <ErrorInfo>
+          <Message>Error when executing the test: Query (1, 24) A single value for column &amp;#39;&amp;lt;oii&amp;gt;MonthName&amp;lt;/oii&amp;gt;&amp;#39; in table &amp;#39;&amp;lt;oii&amp;gt;Date&amp;lt;/oii&amp;gt;&amp;#39; cannot be determined. This can happen when a measure formula refers to a column that contains many values without specifying an aggregation such as min, max, count, or sum to get a single result. 
+ 
+Technical Details: 
+RootActivityId: 63ff1d3b-4a7f-42ff-91b0-2da35050fd27 
+Date (UTC): 4/23/2025 8:09:08 AM
+
+Description: Check metric exists and is available for visualisation.
+
+First Data Source: SemanticModel
+First Query:
+
+EVALUATE ROW(&amp;quot;Output&amp;quot;, &amp;#39;Date&amp;#39;[MonthName] )
+
+
+</Message>
+          <StackTrace></StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="6f90a622-003e-4018-9afb-3181227b995a" testId="abbd7d5e-b765-4f4c-b05f-1a7fea5de1bb" testName="[Check metric exists]" computerName="BART" duration="00:00:00.2358576" startTime="2025-04-23T09:09:07.9496441+01:00" endTime="2025-04-23T09:09:08.1855017+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="aec822df-6fc1-4edb-97b9-f4cc434da0e1" relativeResultsDirectory="6f90a622-003e-4018-9afb-3181227b995a">
+      <Output>
+        <ErrorInfo>
+          <Message>Error when executing the test: Query (1, 24) Column &amp;#39;&amp;lt;oii&amp;gt;Average Number of Trips&amp;lt;/oii&amp;gt;&amp;#39; in table &amp;#39;&amp;lt;oii&amp;gt;Trip&amp;lt;/oii&amp;gt;&amp;#39; cannot be found or may not be used in this expression. 
+ 
+Technical Details: 
+RootActivityId: 81fb9e6d-eb8b-4c3d-8566-8a173af8ec66 
+Date (UTC): 4/23/2025 8:09:08 AM
+
+Description: Check metric exists and is available for visualisation.
+
+First Data Source: SemanticModel
+First Query:
+
+EVALUATE ROW(&amp;quot;Output&amp;quot;, &amp;#39;Trip&amp;#39;[Average Number of Trips] )
+
+
+</Message>
+          <StackTrace></StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="6f90a622-003e-4018-9afb-3181227b995a" testId="910233ff-b31d-406c-8747-ce6506cfacf3" testName="[Check metric exists]" computerName="BART" duration="00:00:00.0786995" startTime="2025-04-23T09:09:08.2163895+01:00" endTime="2025-04-23T09:09:08.2950890+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="aec822df-6fc1-4edb-97b9-f4cc434da0e1" relativeResultsDirectory="6f90a622-003e-4018-9afb-3181227b995a" />
+    <UnitTestResult executionId="6f90a622-003e-4018-9afb-3181227b995a" testId="a6eb2b44-1223-4446-a624-ee7d39010675" testName="[Check metric exists]" computerName="BART" duration="00:00:00.2352746" startTime="2025-04-23T09:09:08.3097723+01:00" endTime="2025-04-23T09:09:08.5450469+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="aec822df-6fc1-4edb-97b9-f4cc434da0e1" relativeResultsDirectory="6f90a622-003e-4018-9afb-3181227b995a">
+      <Output>
+        <ErrorInfo>
+          <Message>Error when executing the test: Query (1, 24) A single value for column &amp;#39;&amp;lt;oii&amp;gt;HourNumber&amp;lt;/oii&amp;gt;&amp;#39; in table &amp;#39;&amp;lt;oii&amp;gt;Time&amp;lt;/oii&amp;gt;&amp;#39; cannot be determined. This can happen when a measure formula refers to a column that contains many values without specifying an aggregation such as min, max, count, or sum to get a single result. 
+ 
+Technical Details: 
+RootActivityId: fbfb6627-58b3-434c-af20-238e664f1871 
+Date (UTC): 4/23/2025 8:09:08 AM
+
+Description: Check metric exists and is available for visualisation.
+
+First Data Source: SemanticModel
+First Query:
+
+EVALUATE ROW(&amp;quot;Output&amp;quot;, &amp;#39;Time&amp;#39;[HourNumber] )
+
+
+</Message>
+          <StackTrace></StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="6f90a622-003e-4018-9afb-3181227b995a" testId="a3687557-f07c-48a6-a845-f59f60b23529" testName="[Check metric exists]" computerName="BART" duration="00:00:00.2461035" startTime="2025-04-23T09:09:08.5658535+01:00" endTime="2025-04-23T09:09:08.8119570+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="aec822df-6fc1-4edb-97b9-f4cc434da0e1" relativeResultsDirectory="6f90a622-003e-4018-9afb-3181227b995a">
+      <Output>
+        <ErrorInfo>
+          <Message>Error when executing the test: Query (1, 24) A single value for column &amp;#39;&amp;lt;oii&amp;gt;ZipCode&amp;lt;/oii&amp;gt;&amp;#39; in table &amp;#39;&amp;lt;oii&amp;gt;Geography&amp;lt;/oii&amp;gt;&amp;#39; cannot be determined. This can happen when a measure formula refers to a column that contains many values without specifying an aggregation such as min, max, count, or sum to get a single result. 
+ 
+Technical Details: 
+RootActivityId: a9b5a35b-d396-43e5-8a99-e63b63ffd1e1 
+Date (UTC): 4/23/2025 8:09:08 AM
+
+Description: Check metric exists and is available for visualisation.
+
+First Data Source: SemanticModel
+First Query:
+
+EVALUATE ROW(&amp;quot;Output&amp;quot;, &amp;#39;Geography&amp;#39;[ZipCode] )
+
+
+</Message>
+          <StackTrace></StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="[Check metric exists]" storage="C:\Users\sarah\Documents\Presentations\Automated Testing\repo\AutomatedTesting\tests" id="66b264ae-3a41-4a6a-ad60-ab6ad0fedf9e">
+      <Execution id="6f90a622-003e-4018-9afb-3181227b995a" />
+      <TestMethod codeBase="C:\Users\sarah\Documents\Presentations\Automated Testing\repo\AutomatedTesting\tests" adapterTypeName="executor://cat/" className="" name="[Check metric exists]" xmlns="" />
+    </UnitTest>
+    <UnitTest name="[Check metric exists]" storage="C:\Users\sarah\Documents\Presentations\Automated Testing\repo\AutomatedTesting\tests" id="658d4e07-111c-4dbd-bf31-9766d5ad1b3c">
+      <Execution id="6f90a622-003e-4018-9afb-3181227b995a" />
+      <TestMethod codeBase="C:\Users\sarah\Documents\Presentations\Automated Testing\repo\AutomatedTesting\tests" adapterTypeName="executor://cat/" className="" name="[Check metric exists]" xmlns="" />
+    </UnitTest>
+    <UnitTest name="[Check metric exists]" storage="C:\Users\sarah\Documents\Presentations\Automated Testing\repo\AutomatedTesting\tests" id="2dc16a47-4b6f-4a15-a826-15536dd19f97">
+      <Execution id="6f90a622-003e-4018-9afb-3181227b995a" />
+      <TestMethod codeBase="C:\Users\sarah\Documents\Presentations\Automated Testing\repo\AutomatedTesting\tests" adapterTypeName="executor://cat/" className="" name="[Check metric exists]" xmlns="" />
+    </UnitTest>
+    <UnitTest name="[Check metric exists]" storage="C:\Users\sarah\Documents\Presentations\Automated Testing\repo\AutomatedTesting\tests" id="0b80aeab-4476-41a3-b2be-a64b996229c6">
+      <Execution id="6f90a622-003e-4018-9afb-3181227b995a" />
+      <TestMethod codeBase="C:\Users\sarah\Documents\Presentations\Automated Testing\repo\AutomatedTesting\tests" adapterTypeName="executor://cat/" className="" name="[Check metric exists]" xmlns="" />
+    </UnitTest>
+    <UnitTest name="[Check metric exists]" storage="C:\Users\sarah\Documents\Presentations\Automated Testing\repo\AutomatedTesting\tests" id="3a1af925-5db1-4ee6-b9ff-b17599821d77">
+      <Execution id="6f90a622-003e-4018-9afb-3181227b995a" />
+      <TestMethod codeBase="C:\Users\sarah\Documents\Presentations\Automated Testing\repo\AutomatedTesting\tests" adapterTypeName="executor://cat/" className="" name="[Check metric exists]" xmlns="" />
+    </UnitTest>
+    <UnitTest name="[Check metric exists]" storage="C:\Users\sarah\Documents\Presentations\Automated Testing\repo\AutomatedTesting\tests" id="744c2591-35c3-47b8-9154-edf8fdbea02b">
+      <Execution id="6f90a622-003e-4018-9afb-3181227b995a" />
+      <TestMethod codeBase="C:\Users\sarah\Documents\Presentations\Automated Testing\repo\AutomatedTesting\tests" adapterTypeName="executor://cat/" className="" name="[Check metric exists]" xmlns="" />
+    </UnitTest>
+    <UnitTest name="[Check metric exists]" storage="C:\Users\sarah\Documents\Presentations\Automated Testing\repo\AutomatedTesting\tests" id="b4800aba-1a2f-48ed-8f56-6219aadfd02b">
+      <Execution id="6f90a622-003e-4018-9afb-3181227b995a" />
+      <TestMethod codeBase="C:\Users\sarah\Documents\Presentations\Automated Testing\repo\AutomatedTesting\tests" adapterTypeName="executor://cat/" className="" name="[Check metric exists]" xmlns="" />
+    </UnitTest>
+    <UnitTest name="[Check metric exists]" storage="C:\Users\sarah\Documents\Presentations\Automated Testing\repo\AutomatedTesting\tests" id="abbd7d5e-b765-4f4c-b05f-1a7fea5de1bb">
+      <Execution id="6f90a622-003e-4018-9afb-3181227b995a" />
+      <TestMethod codeBase="C:\Users\sarah\Documents\Presentations\Automated Testing\repo\AutomatedTesting\tests" adapterTypeName="executor://cat/" className="" name="[Check metric exists]" xmlns="" />
+    </UnitTest>
+    <UnitTest name="[Check metric exists]" storage="C:\Users\sarah\Documents\Presentations\Automated Testing\repo\AutomatedTesting\tests" id="910233ff-b31d-406c-8747-ce6506cfacf3">
+      <Execution id="6f90a622-003e-4018-9afb-3181227b995a" />
+      <TestMethod codeBase="C:\Users\sarah\Documents\Presentations\Automated Testing\repo\AutomatedTesting\tests" adapterTypeName="executor://cat/" className="" name="[Check metric exists]" xmlns="" />
+    </UnitTest>
+    <UnitTest name="[Check metric exists]" storage="C:\Users\sarah\Documents\Presentations\Automated Testing\repo\AutomatedTesting\tests" id="a6eb2b44-1223-4446-a624-ee7d39010675">
+      <Execution id="6f90a622-003e-4018-9afb-3181227b995a" />
+      <TestMethod codeBase="C:\Users\sarah\Documents\Presentations\Automated Testing\repo\AutomatedTesting\tests" adapterTypeName="executor://cat/" className="" name="[Check metric exists]" xmlns="" />
+    </UnitTest>
+    <UnitTest name="[Check metric exists]" storage="C:\Users\sarah\Documents\Presentations\Automated Testing\repo\AutomatedTesting\tests" id="a3687557-f07c-48a6-a845-f59f60b23529">
+      <Execution id="6f90a622-003e-4018-9afb-3181227b995a" />
+      <TestMethod codeBase="C:\Users\sarah\Documents\Presentations\Automated Testing\repo\AutomatedTesting\tests" adapterTypeName="executor://cat/" className="" name="[Check metric exists]" xmlns="" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="66b264ae-3a41-4a6a-ad60-ab6ad0fedf9e" executionId="6f90a622-003e-4018-9afb-3181227b995a" testListId="aec822df-6fc1-4edb-97b9-f4cc434da0e1" />
+    <TestEntry testId="658d4e07-111c-4dbd-bf31-9766d5ad1b3c" executionId="6f90a622-003e-4018-9afb-3181227b995a" testListId="aec822df-6fc1-4edb-97b9-f4cc434da0e1" />
+    <TestEntry testId="2dc16a47-4b6f-4a15-a826-15536dd19f97" executionId="6f90a622-003e-4018-9afb-3181227b995a" testListId="aec822df-6fc1-4edb-97b9-f4cc434da0e1" />
+    <TestEntry testId="0b80aeab-4476-41a3-b2be-a64b996229c6" executionId="6f90a622-003e-4018-9afb-3181227b995a" testListId="aec822df-6fc1-4edb-97b9-f4cc434da0e1" />
+    <TestEntry testId="3a1af925-5db1-4ee6-b9ff-b17599821d77" executionId="6f90a622-003e-4018-9afb-3181227b995a" testListId="aec822df-6fc1-4edb-97b9-f4cc434da0e1" />
+    <TestEntry testId="744c2591-35c3-47b8-9154-edf8fdbea02b" executionId="6f90a622-003e-4018-9afb-3181227b995a" testListId="aec822df-6fc1-4edb-97b9-f4cc434da0e1" />
+    <TestEntry testId="b4800aba-1a2f-48ed-8f56-6219aadfd02b" executionId="6f90a622-003e-4018-9afb-3181227b995a" testListId="aec822df-6fc1-4edb-97b9-f4cc434da0e1" />
+    <TestEntry testId="abbd7d5e-b765-4f4c-b05f-1a7fea5de1bb" executionId="6f90a622-003e-4018-9afb-3181227b995a" testListId="aec822df-6fc1-4edb-97b9-f4cc434da0e1" />
+    <TestEntry testId="910233ff-b31d-406c-8747-ce6506cfacf3" executionId="6f90a622-003e-4018-9afb-3181227b995a" testListId="aec822df-6fc1-4edb-97b9-f4cc434da0e1" />
+    <TestEntry testId="a6eb2b44-1223-4446-a624-ee7d39010675" executionId="6f90a622-003e-4018-9afb-3181227b995a" testListId="aec822df-6fc1-4edb-97b9-f4cc434da0e1" />
+    <TestEntry testId="a3687557-f07c-48a6-a845-f59f60b23529" executionId="6f90a622-003e-4018-9afb-3181227b995a" testListId="aec822df-6fc1-4edb-97b9-f4cc434da0e1" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="aec822df-6fc1-4edb-97b9-f4cc434da0e1" />
+    <TestList name="All Loaded Results" id="4c4322b4-eceb-4640-8e03-bfe402f2857a" />
+  </TestLists>
+  <ResultSummary outcome="Failed">
+    <Counters total="11" executed="11" passed="4" failed="0" error="7" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>Generated by CAT 1.15.1.1. Developed by Joyful Craftsmen (https://www.joyfulcraftsmen.com).</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>

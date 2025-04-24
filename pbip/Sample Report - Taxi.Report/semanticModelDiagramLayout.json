@@ -10,8 +10,8 @@
       "nodes": [
         {
           "location": {
-            "x": 286.77338946427136,
-            "y": 501.44623053120472
+            "x": 618.38305001469371,
+            "y": -43.422348979922305
           },
           "nodeIndex": "Date",
           "nodeLineageTag": "932381ff-04af-4cbf-88b2-f9f83b3cfa58",
@@ -23,8 +23,8 @@
         },
         {
           "location": {
-            "x": 49.999999999999986,
-            "y": -50
+            "x": 50,
+            "y": 12.562761799677247
           },
           "nodeIndex": "Geography",
           "nodeLineageTag": "5392734a-00af-45e1-9164-0027fda60cd2",
@@ -36,21 +36,8 @@
         },
         {
           "location": {
-            "x": 620.21608926739009,
-            "y": 155.91667194568214
-          },
-          "nodeIndex": "Time",
-          "nodeLineageTag": "54010b47-c4ad-4be9-99d0-2d3c2bd448f1",
-          "size": {
-            "height": 296,
-            "width": 234
-          },
-          "zIndex": 0
-        },
-        {
-          "location": {
-            "x": 334.16920539022669,
-            "y": 151.23195712624118
+            "x": 334.20156119318523,
+            "y": -10.577651020077695
           },
           "nodeIndex": "Trip",
           "nodeLineageTag": "bfc7fc4d-078d-42dc-ab98-afe32c423adc",
@@ -62,13 +49,26 @@
         },
         {
           "location": {
-            "x": 854.21608926739009,
-            "y": 337.72311526560236
+            "x": 852.38305001469371,
+            "y": 85
           },
           "nodeIndex": "Weather",
           "nodeLineageTag": "49db16ea-9fa7-4257-8eb1-f9e792a29584",
           "size": {
             "height": 176,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1086.3830500146937,
+            "y": 25
+          },
+          "nodeIndex": "Time",
+          "nodeLineageTag": "54010b47-c4ad-4be9-99d0-2d3c2bd448f1",
+          "size": {
+            "height": 296,
             "width": 234
           },
           "zIndex": 0

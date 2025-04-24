@@ -1,0 +1,262 @@
+﻿<TestRun id="02de2cd2-5011-49f6-9adf-13658756e269" name="sarah@BART 2025-04-23 22:42:31" runUser="BART\sarah" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2025-04-23T22:42:31.0098940+01:00" queuing="2025-04-23T22:42:31.0098940+01:00" start="2025-04-23T22:42:31.0098940+01:00" finish="2025-04-23T22:42:37.8765128+01:00" />
+  <TestSettings name="default" id="70982906-ba4f-4725-940d-0522106361b7">
+    <Deployment runDeploymentRoot="sarah_BART_2025-04-23_22_42_31" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="b7c69fa2-def6-4cf9-b02a-1968ec384584" testId="f7553d0b-2a50-4901-a6da-e8c6ea1a7163" testName="[Check metric exists]" computerName="BART" duration="00:00:00.3052288" startTime="2025-04-23T22:42:34.8156584+01:00" endTime="2025-04-23T22:42:35.1208872+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="e0ed4477-a57e-4806-abcc-23e6658cb172" relativeResultsDirectory="b7c69fa2-def6-4cf9-b02a-1968ec384584" />
+    <UnitTestResult executionId="b7c69fa2-def6-4cf9-b02a-1968ec384584" testId="46fddec2-19bb-4c70-86d7-301bf3496b78" testName="[Check metric exists]" computerName="BART" duration="00:00:00.0798717" startTime="2025-04-23T22:42:35.1592939+01:00" endTime="2025-04-23T22:42:35.2391656+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="e0ed4477-a57e-4806-abcc-23e6658cb172" relativeResultsDirectory="b7c69fa2-def6-4cf9-b02a-1968ec384584" />
+    <UnitTestResult executionId="b7c69fa2-def6-4cf9-b02a-1968ec384584" testId="b71658af-e178-483d-be43-130ccf63bcea" testName="[Check metric exists]" computerName="BART" duration="00:00:00.1428679" startTime="2025-04-23T22:42:35.2540955+01:00" endTime="2025-04-23T22:42:35.3969634+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="e0ed4477-a57e-4806-abcc-23e6658cb172" relativeResultsDirectory="b7c69fa2-def6-4cf9-b02a-1968ec384584" />
+    <UnitTestResult executionId="b7c69fa2-def6-4cf9-b02a-1968ec384584" testId="3dc4735e-3eff-4881-aa8e-ff62ceef5f3d" testName="[Check metric exists]" computerName="BART" duration="00:00:00.0682688" startTime="2025-04-23T22:42:35.4085394+01:00" endTime="2025-04-23T22:42:35.4768082+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="e0ed4477-a57e-4806-abcc-23e6658cb172" relativeResultsDirectory="b7c69fa2-def6-4cf9-b02a-1968ec384584" />
+    <UnitTestResult executionId="b7c69fa2-def6-4cf9-b02a-1968ec384584" testId="846e0411-2daa-4190-a6ef-3da95f9ee3ba" testName="[Check metric exists]" computerName="BART" duration="00:00:00.0905399" startTime="2025-04-23T22:42:35.4876321+01:00" endTime="2025-04-23T22:42:35.5781720+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="e0ed4477-a57e-4806-abcc-23e6658cb172" relativeResultsDirectory="b7c69fa2-def6-4cf9-b02a-1968ec384584" />
+    <UnitTestResult executionId="b7c69fa2-def6-4cf9-b02a-1968ec384584" testId="0f0e81c7-e26f-43a4-a0ed-79a782ddf5be" testName="[Check metric exists]" computerName="BART" duration="00:00:00.0920211" startTime="2025-04-23T22:42:35.5929913+01:00" endTime="2025-04-23T22:42:35.6850124+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="e0ed4477-a57e-4806-abcc-23e6658cb172" relativeResultsDirectory="b7c69fa2-def6-4cf9-b02a-1968ec384584" />
+    <UnitTestResult executionId="b7c69fa2-def6-4cf9-b02a-1968ec384584" testId="3f5301a6-429e-4bee-a12e-c2a378f9055f" testName="[Check metric exists]" computerName="BART" duration="00:00:00.0770405" startTime="2025-04-23T22:42:35.7026691+01:00" endTime="2025-04-23T22:42:35.7797096+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="e0ed4477-a57e-4806-abcc-23e6658cb172" relativeResultsDirectory="b7c69fa2-def6-4cf9-b02a-1968ec384584" />
+    <UnitTestResult executionId="b7c69fa2-def6-4cf9-b02a-1968ec384584" testId="1f0a5189-bf76-4caa-8314-f2d27d687f82" testName="[Check metric exists]" computerName="BART" duration="00:00:00.1817177" startTime="2025-04-23T22:42:35.7968252+01:00" endTime="2025-04-23T22:42:35.9785429+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="e0ed4477-a57e-4806-abcc-23e6658cb172" relativeResultsDirectory="b7c69fa2-def6-4cf9-b02a-1968ec384584">
+      <Output>
+        <ErrorInfo>
+          <Message>Error when executing the test: Query (1, 43) Cannot find table &amp;#39;&amp;lt;oii&amp;gt;&amp;lt;/oii&amp;gt;&amp;#39;. 
+ 
+Technical Details: 
+RootActivityId: 2a5e8c18-085f-4cbb-80b7-b94d4942f5a0 
+Date (UTC): 4/23/2025 9:42:35 PM
+
+Description: Check metric exists and is available for visualisation.
+
+First Data Source: SemanticModel
+First Query:
+
+EVALUATE ROW (&amp;quot;Output&amp;quot;,FIRSTNONBLANKVALUE(&amp;#39;&amp;#39;[],1))
+
+
+</Message>
+          <StackTrace></StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b7c69fa2-def6-4cf9-b02a-1968ec384584" testId="6abbe747-60b2-42c9-8ff5-96a198c7a565" testName="[Check metric exists]" computerName="BART" duration="00:00:00.1633477" startTime="2025-04-23T22:42:36.0055760+01:00" endTime="2025-04-23T22:42:36.1689237+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="e0ed4477-a57e-4806-abcc-23e6658cb172" relativeResultsDirectory="b7c69fa2-def6-4cf9-b02a-1968ec384584">
+      <Output>
+        <ErrorInfo>
+          <Message>Error when executing the test: Query (1, 43) Cannot find table &amp;#39;&amp;lt;oii&amp;gt;&amp;lt;/oii&amp;gt;&amp;#39;. 
+ 
+Technical Details: 
+RootActivityId: edcc8f4b-6287-4b3a-821b-c90150f4546f 
+Date (UTC): 4/23/2025 9:42:36 PM
+
+Description: Check metric exists and is available for visualisation.
+
+First Data Source: SemanticModel
+First Query:
+
+EVALUATE ROW (&amp;quot;Output&amp;quot;,FIRSTNONBLANKVALUE(&amp;#39;&amp;#39;[],1))
+
+
+</Message>
+          <StackTrace></StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b7c69fa2-def6-4cf9-b02a-1968ec384584" testId="f63f589d-987f-4380-a493-f412cc101e54" testName="[Check metric exists]" computerName="BART" duration="00:00:00.1917983" startTime="2025-04-23T22:42:36.1866290+01:00" endTime="2025-04-23T22:42:36.3784273+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="e0ed4477-a57e-4806-abcc-23e6658cb172" relativeResultsDirectory="b7c69fa2-def6-4cf9-b02a-1968ec384584">
+      <Output>
+        <ErrorInfo>
+          <Message>Error when executing the test: Query (1, 24) Column &amp;#39;&amp;lt;oii&amp;gt;Average Number of Trips&amp;lt;/oii&amp;gt;&amp;#39; in table &amp;#39;&amp;lt;oii&amp;gt;Trip&amp;lt;/oii&amp;gt;&amp;#39; cannot be found or may not be used in this expression. 
+ 
+Technical Details: 
+RootActivityId: a286ac49-888c-4394-8ea5-cd24d574a7fc 
+Date (UTC): 4/23/2025 9:42:36 PM
+
+Description: Check metric exists and is available for visualisation.
+
+First Data Source: SemanticModel
+First Query:
+
+EVALUATE ROW (&amp;quot;Output&amp;quot;,&amp;#39;Trip&amp;#39;[Average Number of Trips])
+
+
+</Message>
+          <StackTrace></StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b7c69fa2-def6-4cf9-b02a-1968ec384584" testId="3a371483-7388-4eb9-b216-4bb02fc04001" testName="[Check metric exists]" computerName="BART" duration="00:00:00.1119912" startTime="2025-04-23T22:42:36.4058467+01:00" endTime="2025-04-23T22:42:36.5178379+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="e0ed4477-a57e-4806-abcc-23e6658cb172" relativeResultsDirectory="b7c69fa2-def6-4cf9-b02a-1968ec384584" />
+    <UnitTestResult executionId="b7c69fa2-def6-4cf9-b02a-1968ec384584" testId="d2b96d11-d48c-4934-8c4b-778e730e6406" testName="[Check metric exists]" computerName="BART" duration="00:00:00.1440660" startTime="2025-04-23T22:42:36.5350007+01:00" endTime="2025-04-23T22:42:36.6790667+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="e0ed4477-a57e-4806-abcc-23e6658cb172" relativeResultsDirectory="b7c69fa2-def6-4cf9-b02a-1968ec384584" />
+    <UnitTestResult executionId="b7c69fa2-def6-4cf9-b02a-1968ec384584" testId="3e868845-572d-4152-b33d-2e67a4130743" testName="[Check metric exists]" computerName="BART" duration="00:00:00.0832043" startTime="2025-04-23T22:42:36.6957449+01:00" endTime="2025-04-23T22:42:36.7789492+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="e0ed4477-a57e-4806-abcc-23e6658cb172" relativeResultsDirectory="b7c69fa2-def6-4cf9-b02a-1968ec384584" />
+    <UnitTestResult executionId="b7c69fa2-def6-4cf9-b02a-1968ec384584" testId="74cffea1-b5c1-4f6b-87ac-996a4f85d2e8" testName="[Check metric exists]" computerName="BART" duration="00:00:00.0832779" startTime="2025-04-23T22:42:36.7948882+01:00" endTime="2025-04-23T22:42:36.8781661+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="e0ed4477-a57e-4806-abcc-23e6658cb172" relativeResultsDirectory="b7c69fa2-def6-4cf9-b02a-1968ec384584" />
+    <UnitTestResult executionId="b7c69fa2-def6-4cf9-b02a-1968ec384584" testId="aa6aa498-71f9-444e-b571-51c4eb68247b" testName="[Check metric exists]" computerName="BART" duration="00:00:00.1662639" startTime="2025-04-23T22:42:36.8989068+01:00" endTime="2025-04-23T22:42:37.0651707+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="e0ed4477-a57e-4806-abcc-23e6658cb172" relativeResultsDirectory="b7c69fa2-def6-4cf9-b02a-1968ec384584">
+      <Output>
+        <ErrorInfo>
+          <Message>Error when executing the test: Query (1, 43) Cannot find table &amp;#39;&amp;lt;oii&amp;gt;&amp;lt;/oii&amp;gt;&amp;#39;. 
+ 
+Technical Details: 
+RootActivityId: 793b1538-4485-4984-94a5-5480d77477cf 
+Date (UTC): 4/23/2025 9:42:37 PM
+
+Description: Check metric exists and is available for visualisation.
+
+First Data Source: SemanticModel
+First Query:
+
+EVALUATE ROW (&amp;quot;Output&amp;quot;,FIRSTNONBLANKVALUE(&amp;#39;&amp;#39;[],1))
+
+
+</Message>
+          <StackTrace></StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b7c69fa2-def6-4cf9-b02a-1968ec384584" testId="57df3500-25d8-4736-95f4-35446196b22f" testName="[Check metric exists]" computerName="BART" duration="00:00:00.1810039" startTime="2025-04-23T22:42:37.0934641+01:00" endTime="2025-04-23T22:42:37.2744680+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="e0ed4477-a57e-4806-abcc-23e6658cb172" relativeResultsDirectory="b7c69fa2-def6-4cf9-b02a-1968ec384584">
+      <Output>
+        <ErrorInfo>
+          <Message>Error when executing the test: Query (1, 43) Cannot find table &amp;#39;&amp;lt;oii&amp;gt;&amp;lt;/oii&amp;gt;&amp;#39;. 
+ 
+Technical Details: 
+RootActivityId: a99ac4ad-2877-465b-bd5a-fe713e371f26 
+Date (UTC): 4/23/2025 9:42:37 PM
+
+Description: Check metric exists and is available for visualisation.
+
+First Data Source: SemanticModel
+First Query:
+
+EVALUATE ROW (&amp;quot;Output&amp;quot;,FIRSTNONBLANKVALUE(&amp;#39;&amp;#39;[],1))
+
+
+</Message>
+          <StackTrace></StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b7c69fa2-def6-4cf9-b02a-1968ec384584" testId="e65dd7c3-8c56-4c65-ad77-961464a6b5a9" testName="[Check metric exists]" computerName="BART" duration="00:00:00.0812355" startTime="2025-04-23T22:42:37.2974073+01:00" endTime="2025-04-23T22:42:37.3786428+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="e0ed4477-a57e-4806-abcc-23e6658cb172" relativeResultsDirectory="b7c69fa2-def6-4cf9-b02a-1968ec384584" />
+    <UnitTestResult executionId="b7c69fa2-def6-4cf9-b02a-1968ec384584" testId="bba4c800-ffec-4c66-a14c-86b706c92192" testName="[Check metric exists]" computerName="BART" duration="00:00:00.1038260" startTime="2025-04-23T22:42:37.3944901+01:00" endTime="2025-04-23T22:42:37.4983161+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="e0ed4477-a57e-4806-abcc-23e6658cb172" relativeResultsDirectory="b7c69fa2-def6-4cf9-b02a-1968ec384584" />
+    <UnitTestResult executionId="b7c69fa2-def6-4cf9-b02a-1968ec384584" testId="20c99438-4701-4457-b344-16822eb71069" testName="[Check metric exists]" computerName="BART" duration="00:00:00.1793505" startTime="2025-04-23T22:42:37.5193024+01:00" endTime="2025-04-23T22:42:37.6986529+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="e0ed4477-a57e-4806-abcc-23e6658cb172" relativeResultsDirectory="b7c69fa2-def6-4cf9-b02a-1968ec384584">
+      <Output>
+        <ErrorInfo>
+          <Message>Error when executing the test: Query (1, 43) Cannot find table &amp;#39;&amp;lt;oii&amp;gt;&amp;lt;/oii&amp;gt;&amp;#39;. 
+ 
+Technical Details: 
+RootActivityId: 0eb0d6bd-7c93-4656-846e-4772b48844fd 
+Date (UTC): 4/23/2025 9:42:37 PM
+
+Description: Check metric exists and is available for visualisation.
+
+First Data Source: SemanticModel
+First Query:
+
+EVALUATE ROW (&amp;quot;Output&amp;quot;,FIRSTNONBLANKVALUE(&amp;#39;&amp;#39;[],1))
+
+
+</Message>
+          <StackTrace></StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="[Check metric exists]" storage="C:\Users\sarah\Documents\Presentations\repo\AutomatedTesting\tests" id="f7553d0b-2a50-4901-a6da-e8c6ea1a7163">
+      <Execution id="b7c69fa2-def6-4cf9-b02a-1968ec384584" />
+      <TestMethod codeBase="C:\Users\sarah\Documents\Presentations\repo\AutomatedTesting\tests" adapterTypeName="executor://cat/" className="" name="[Check metric exists]" xmlns="" />
+    </UnitTest>
+    <UnitTest name="[Check metric exists]" storage="C:\Users\sarah\Documents\Presentations\repo\AutomatedTesting\tests" id="46fddec2-19bb-4c70-86d7-301bf3496b78">
+      <Execution id="b7c69fa2-def6-4cf9-b02a-1968ec384584" />
+      <TestMethod codeBase="C:\Users\sarah\Documents\Presentations\repo\AutomatedTesting\tests" adapterTypeName="executor://cat/" className="" name="[Check metric exists]" xmlns="" />
+    </UnitTest>
+    <UnitTest name="[Check metric exists]" storage="C:\Users\sarah\Documents\Presentations\repo\AutomatedTesting\tests" id="b71658af-e178-483d-be43-130ccf63bcea">
+      <Execution id="b7c69fa2-def6-4cf9-b02a-1968ec384584" />
+      <TestMethod codeBase="C:\Users\sarah\Documents\Presentations\repo\AutomatedTesting\tests" adapterTypeName="executor://cat/" className="" name="[Check metric exists]" xmlns="" />
+    </UnitTest>
+    <UnitTest name="[Check metric exists]" storage="C:\Users\sarah\Documents\Presentations\repo\AutomatedTesting\tests" id="3dc4735e-3eff-4881-aa8e-ff62ceef5f3d">
+      <Execution id="b7c69fa2-def6-4cf9-b02a-1968ec384584" />
+      <TestMethod codeBase="C:\Users\sarah\Documents\Presentations\repo\AutomatedTesting\tests" adapterTypeName="executor://cat/" className="" name="[Check metric exists]" xmlns="" />
+    </UnitTest>
+    <UnitTest name="[Check metric exists]" storage="C:\Users\sarah\Documents\Presentations\repo\AutomatedTesting\tests" id="846e0411-2daa-4190-a6ef-3da95f9ee3ba">
+      <Execution id="b7c69fa2-def6-4cf9-b02a-1968ec384584" />
+      <TestMethod codeBase="C:\Users\sarah\Documents\Presentations\repo\AutomatedTesting\tests" adapterTypeName="executor://cat/" className="" name="[Check metric exists]" xmlns="" />
+    </UnitTest>
+    <UnitTest name="[Check metric exists]" storage="C:\Users\sarah\Documents\Presentations\repo\AutomatedTesting\tests" id="0f0e81c7-e26f-43a4-a0ed-79a782ddf5be">
+      <Execution id="b7c69fa2-def6-4cf9-b02a-1968ec384584" />
+      <TestMethod codeBase="C:\Users\sarah\Documents\Presentations\repo\AutomatedTesting\tests" adapterTypeName="executor://cat/" className="" name="[Check metric exists]" xmlns="" />
+    </UnitTest>
+    <UnitTest name="[Check metric exists]" storage="C:\Users\sarah\Documents\Presentations\repo\AutomatedTesting\tests" id="3f5301a6-429e-4bee-a12e-c2a378f9055f">
+      <Execution id="b7c69fa2-def6-4cf9-b02a-1968ec384584" />
+      <TestMethod codeBase="C:\Users\sarah\Documents\Presentations\repo\AutomatedTesting\tests" adapterTypeName="executor://cat/" className="" name="[Check metric exists]" xmlns="" />
+    </UnitTest>
+    <UnitTest name="[Check metric exists]" storage="C:\Users\sarah\Documents\Presentations\repo\AutomatedTesting\tests" id="1f0a5189-bf76-4caa-8314-f2d27d687f82">
+      <Execution id="b7c69fa2-def6-4cf9-b02a-1968ec384584" />
+      <TestMethod codeBase="C:\Users\sarah\Documents\Presentations\repo\AutomatedTesting\tests" adapterTypeName="executor://cat/" className="" name="[Check metric exists]" xmlns="" />
+    </UnitTest>
+    <UnitTest name="[Check metric exists]" storage="C:\Users\sarah\Documents\Presentations\repo\AutomatedTesting\tests" id="6abbe747-60b2-42c9-8ff5-96a198c7a565">
+      <Execution id="b7c69fa2-def6-4cf9-b02a-1968ec384584" />
+      <TestMethod codeBase="C:\Users\sarah\Documents\Presentations\repo\AutomatedTesting\tests" adapterTypeName="executor://cat/" className="" name="[Check metric exists]" xmlns="" />
+    </UnitTest>
+    <UnitTest name="[Check metric exists]" storage="C:\Users\sarah\Documents\Presentations\repo\AutomatedTesting\tests" id="f63f589d-987f-4380-a493-f412cc101e54">
+      <Execution id="b7c69fa2-def6-4cf9-b02a-1968ec384584" />
+      <TestMethod codeBase="C:\Users\sarah\Documents\Presentations\repo\AutomatedTesting\tests" adapterTypeName="executor://cat/" className="" name="[Check metric exists]" xmlns="" />
+    </UnitTest>
+    <UnitTest name="[Check metric exists]" storage="C:\Users\sarah\Documents\Presentations\repo\AutomatedTesting\tests" id="3a371483-7388-4eb9-b216-4bb02fc04001">
+      <Execution id="b7c69fa2-def6-4cf9-b02a-1968ec384584" />
+      <TestMethod codeBase="C:\Users\sarah\Documents\Presentations\repo\AutomatedTesting\tests" adapterTypeName="executor://cat/" className="" name="[Check metric exists]" xmlns="" />
+    </UnitTest>
+    <UnitTest name="[Check metric exists]" storage="C:\Users\sarah\Documents\Presentations\repo\AutomatedTesting\tests" id="d2b96d11-d48c-4934-8c4b-778e730e6406">
+      <Execution id="b7c69fa2-def6-4cf9-b02a-1968ec384584" />
+      <TestMethod codeBase="C:\Users\sarah\Documents\Presentations\repo\AutomatedTesting\tests" adapterTypeName="executor://cat/" className="" name="[Check metric exists]" xmlns="" />
+    </UnitTest>
+    <UnitTest name="[Check metric exists]" storage="C:\Users\sarah\Documents\Presentations\repo\AutomatedTesting\tests" id="3e868845-572d-4152-b33d-2e67a4130743">
+      <Execution id="b7c69fa2-def6-4cf9-b02a-1968ec384584" />
+      <TestMethod codeBase="C:\Users\sarah\Documents\Presentations\repo\AutomatedTesting\tests" adapterTypeName="executor://cat/" className="" name="[Check metric exists]" xmlns="" />
+    </UnitTest>
+    <UnitTest name="[Check metric exists]" storage="C:\Users\sarah\Documents\Presentations\repo\AutomatedTesting\tests" id="74cffea1-b5c1-4f6b-87ac-996a4f85d2e8">
+      <Execution id="b7c69fa2-def6-4cf9-b02a-1968ec384584" />
+      <TestMethod codeBase="C:\Users\sarah\Documents\Presentations\repo\AutomatedTesting\tests" adapterTypeName="executor://cat/" className="" name="[Check metric exists]" xmlns="" />
+    </UnitTest>
+    <UnitTest name="[Check metric exists]" storage="C:\Users\sarah\Documents\Presentations\repo\AutomatedTesting\tests" id="aa6aa498-71f9-444e-b571-51c4eb68247b">
+      <Execution id="b7c69fa2-def6-4cf9-b02a-1968ec384584" />
+      <TestMethod codeBase="C:\Users\sarah\Documents\Presentations\repo\AutomatedTesting\tests" adapterTypeName="executor://cat/" className="" name="[Check metric exists]" xmlns="" />
+    </UnitTest>
+    <UnitTest name="[Check metric exists]" storage="C:\Users\sarah\Documents\Presentations\repo\AutomatedTesting\tests" id="57df3500-25d8-4736-95f4-35446196b22f">
+      <Execution id="b7c69fa2-def6-4cf9-b02a-1968ec384584" />
+      <TestMethod codeBase="C:\Users\sarah\Documents\Presentations\repo\AutomatedTesting\tests" adapterTypeName="executor://cat/" className="" name="[Check metric exists]" xmlns="" />
+    </UnitTest>
+    <UnitTest name="[Check metric exists]" storage="C:\Users\sarah\Documents\Presentations\repo\AutomatedTesting\tests" id="e65dd7c3-8c56-4c65-ad77-961464a6b5a9">
+      <Execution id="b7c69fa2-def6-4cf9-b02a-1968ec384584" />
+      <TestMethod codeBase="C:\Users\sarah\Documents\Presentations\repo\AutomatedTesting\tests" adapterTypeName="executor://cat/" className="" name="[Check metric exists]" xmlns="" />
+    </UnitTest>
+    <UnitTest name="[Check metric exists]" storage="C:\Users\sarah\Documents\Presentations\repo\AutomatedTesting\tests" id="bba4c800-ffec-4c66-a14c-86b706c92192">
+      <Execution id="b7c69fa2-def6-4cf9-b02a-1968ec384584" />
+      <TestMethod codeBase="C:\Users\sarah\Documents\Presentations\repo\AutomatedTesting\tests" adapterTypeName="executor://cat/" className="" name="[Check metric exists]" xmlns="" />
+    </UnitTest>
+    <UnitTest name="[Check metric exists]" storage="C:\Users\sarah\Documents\Presentations\repo\AutomatedTesting\tests" id="20c99438-4701-4457-b344-16822eb71069">
+      <Execution id="b7c69fa2-def6-4cf9-b02a-1968ec384584" />
+      <TestMethod codeBase="C:\Users\sarah\Documents\Presentations\repo\AutomatedTesting\tests" adapterTypeName="executor://cat/" className="" name="[Check metric exists]" xmlns="" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="f7553d0b-2a50-4901-a6da-e8c6ea1a7163" executionId="b7c69fa2-def6-4cf9-b02a-1968ec384584" testListId="e0ed4477-a57e-4806-abcc-23e6658cb172" />
+    <TestEntry testId="46fddec2-19bb-4c70-86d7-301bf3496b78" executionId="b7c69fa2-def6-4cf9-b02a-1968ec384584" testListId="e0ed4477-a57e-4806-abcc-23e6658cb172" />
+    <TestEntry testId="b71658af-e178-483d-be43-130ccf63bcea" executionId="b7c69fa2-def6-4cf9-b02a-1968ec384584" testListId="e0ed4477-a57e-4806-abcc-23e6658cb172" />
+    <TestEntry testId="3dc4735e-3eff-4881-aa8e-ff62ceef5f3d" executionId="b7c69fa2-def6-4cf9-b02a-1968ec384584" testListId="e0ed4477-a57e-4806-abcc-23e6658cb172" />
+    <TestEntry testId="846e0411-2daa-4190-a6ef-3da95f9ee3ba" executionId="b7c69fa2-def6-4cf9-b02a-1968ec384584" testListId="e0ed4477-a57e-4806-abcc-23e6658cb172" />
+    <TestEntry testId="0f0e81c7-e26f-43a4-a0ed-79a782ddf5be" executionId="b7c69fa2-def6-4cf9-b02a-1968ec384584" testListId="e0ed4477-a57e-4806-abcc-23e6658cb172" />
+    <TestEntry testId="3f5301a6-429e-4bee-a12e-c2a378f9055f" executionId="b7c69fa2-def6-4cf9-b02a-1968ec384584" testListId="e0ed4477-a57e-4806-abcc-23e6658cb172" />
+    <TestEntry testId="1f0a5189-bf76-4caa-8314-f2d27d687f82" executionId="b7c69fa2-def6-4cf9-b02a-1968ec384584" testListId="e0ed4477-a57e-4806-abcc-23e6658cb172" />
+    <TestEntry testId="6abbe747-60b2-42c9-8ff5-96a198c7a565" executionId="b7c69fa2-def6-4cf9-b02a-1968ec384584" testListId="e0ed4477-a57e-4806-abcc-23e6658cb172" />
+    <TestEntry testId="f63f589d-987f-4380-a493-f412cc101e54" executionId="b7c69fa2-def6-4cf9-b02a-1968ec384584" testListId="e0ed4477-a57e-4806-abcc-23e6658cb172" />
+    <TestEntry testId="3a371483-7388-4eb9-b216-4bb02fc04001" executionId="b7c69fa2-def6-4cf9-b02a-1968ec384584" testListId="e0ed4477-a57e-4806-abcc-23e6658cb172" />
+    <TestEntry testId="d2b96d11-d48c-4934-8c4b-778e730e6406" executionId="b7c69fa2-def6-4cf9-b02a-1968ec384584" testListId="e0ed4477-a57e-4806-abcc-23e6658cb172" />
+    <TestEntry testId="3e868845-572d-4152-b33d-2e67a4130743" executionId="b7c69fa2-def6-4cf9-b02a-1968ec384584" testListId="e0ed4477-a57e-4806-abcc-23e6658cb172" />
+    <TestEntry testId="74cffea1-b5c1-4f6b-87ac-996a4f85d2e8" executionId="b7c69fa2-def6-4cf9-b02a-1968ec384584" testListId="e0ed4477-a57e-4806-abcc-23e6658cb172" />
+    <TestEntry testId="aa6aa498-71f9-444e-b571-51c4eb68247b" executionId="b7c69fa2-def6-4cf9-b02a-1968ec384584" testListId="e0ed4477-a57e-4806-abcc-23e6658cb172" />
+    <TestEntry testId="57df3500-25d8-4736-95f4-35446196b22f" executionId="b7c69fa2-def6-4cf9-b02a-1968ec384584" testListId="e0ed4477-a57e-4806-abcc-23e6658cb172" />
+    <TestEntry testId="e65dd7c3-8c56-4c65-ad77-961464a6b5a9" executionId="b7c69fa2-def6-4cf9-b02a-1968ec384584" testListId="e0ed4477-a57e-4806-abcc-23e6658cb172" />
+    <TestEntry testId="bba4c800-ffec-4c66-a14c-86b706c92192" executionId="b7c69fa2-def6-4cf9-b02a-1968ec384584" testListId="e0ed4477-a57e-4806-abcc-23e6658cb172" />
+    <TestEntry testId="20c99438-4701-4457-b344-16822eb71069" executionId="b7c69fa2-def6-4cf9-b02a-1968ec384584" testListId="e0ed4477-a57e-4806-abcc-23e6658cb172" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="e0ed4477-a57e-4806-abcc-23e6658cb172" />
+    <TestList name="All Loaded Results" id="d74ed2ee-cda8-440e-acfb-86668c111dfd" />
+  </TestLists>
+  <ResultSummary outcome="Failed">
+    <Counters total="19" executed="19" passed="13" failed="0" error="6" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>Generated by CAT 1.15.1.1. Developed by Joyful Craftsmen (https://www.joyfulcraftsmen.com).</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>

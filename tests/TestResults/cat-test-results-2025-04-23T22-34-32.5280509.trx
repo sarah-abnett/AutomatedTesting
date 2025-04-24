@@ -1,0 +1,443 @@
+﻿<TestRun id="5bdbcd0b-c18b-43a8-aaa6-1d26ca395d85" name="sarah@BART 2025-04-23 22:34:32" runUser="BART\sarah" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2025-04-23T22:34:32.5218047+01:00" queuing="2025-04-23T22:34:32.5218047+01:00" start="2025-04-23T22:34:32.5218047+01:00" finish="2025-04-23T22:34:50.1027106+01:00" />
+  <TestSettings name="default" id="607769ca-0194-421e-b7b5-2497255e6108">
+    <Deployment runDeploymentRoot="sarah_BART_2025-04-23_22_34_32" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="406580ff-0747-48d5-b086-19564bd5a5c2" testId="81204faf-e3e4-487a-b4be-be49c5794b68" testName="[Check metric exists]" computerName="BART" duration="00:00:00.2815063" startTime="2025-04-23T22:34:42.8487446+01:00" endTime="2025-04-23T22:34:43.1302509+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="95259dc6-8dcf-4bed-ac55-d3ce6842a21e" relativeResultsDirectory="406580ff-0747-48d5-b086-19564bd5a5c2">
+      <Output>
+        <ErrorInfo>
+          <Message>Error when executing the test: Query (1, 17) The syntax for &amp;#39;&amp;lt;ccon&amp;gt;Output&amp;lt;/ccon&amp;gt;&amp;#39; is incorrect. (&amp;lt;ccon&amp;gt;EVALUATE ROW (&amp;quot;&amp;quot;Output&amp;quot;&amp;quot;,FIRSTNONBLANKVALUE(&amp;#39;Date&amp;#39;[Year]),1)
+&amp;lt;/ccon&amp;gt;). 
+ 
+Technical Details: 
+RootActivityId: 4c34f7f0-455f-46e5-81b6-f80a311e8332 
+Date (UTC): 4/23/2025 9:34:43 PM
+
+Description: Check metric exists and is available for visualisation.
+
+First Data Source: SemanticModel
+First Query:
+
+EVALUATE ROW (&amp;quot;&amp;quot;Output&amp;quot;&amp;quot;,FIRSTNONBLANKVALUE(&amp;#39;Date&amp;#39;[Year]),1)
+
+
+</Message>
+          <StackTrace></StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="406580ff-0747-48d5-b086-19564bd5a5c2" testId="a4a29059-1178-4bde-a6e0-d1c8283b5b83" testName="[Check metric exists]" computerName="BART" duration="00:00:04.2430708" startTime="2025-04-23T22:34:43.1551879+01:00" endTime="2025-04-23T22:34:47.3982587+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="95259dc6-8dcf-4bed-ac55-d3ce6842a21e" relativeResultsDirectory="406580ff-0747-48d5-b086-19564bd5a5c2" />
+    <UnitTestResult executionId="406580ff-0747-48d5-b086-19564bd5a5c2" testId="f252bee0-bb63-4377-bfe7-8fbe1f897fba" testName="[Check metric exists]" computerName="BART" duration="00:00:00.1300231" startTime="2025-04-23T22:34:47.4178595+01:00" endTime="2025-04-23T22:34:47.5478826+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="95259dc6-8dcf-4bed-ac55-d3ce6842a21e" relativeResultsDirectory="406580ff-0747-48d5-b086-19564bd5a5c2">
+      <Output>
+        <ErrorInfo>
+          <Message>Error when executing the test: Query (1, 17) The syntax for &amp;#39;&amp;lt;ccon&amp;gt;Output&amp;lt;/ccon&amp;gt;&amp;#39; is incorrect. (&amp;lt;ccon&amp;gt;EVALUATE ROW (&amp;quot;&amp;quot;Output&amp;quot;&amp;quot;,FIRSTNONBLANKVALUE(&amp;#39;Geography&amp;#39;[State]),1)
+&amp;lt;/ccon&amp;gt;). 
+ 
+Technical Details: 
+RootActivityId: 74a4e38f-3998-49d5-ae91-cc373ed58539 
+Date (UTC): 4/23/2025 9:34:47 PM
+
+Description: Check metric exists and is available for visualisation.
+
+First Data Source: SemanticModel
+First Query:
+
+EVALUATE ROW (&amp;quot;&amp;quot;Output&amp;quot;&amp;quot;,FIRSTNONBLANKVALUE(&amp;#39;Geography&amp;#39;[State]),1)
+
+
+</Message>
+          <StackTrace></StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="406580ff-0747-48d5-b086-19564bd5a5c2" testId="c7cf4438-9282-4d46-bcd6-eee55649e70b" testName="[Check metric exists]" computerName="BART" duration="00:00:00.0807497" startTime="2025-04-23T22:34:47.5598030+01:00" endTime="2025-04-23T22:34:47.6405527+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="95259dc6-8dcf-4bed-ac55-d3ce6842a21e" relativeResultsDirectory="406580ff-0747-48d5-b086-19564bd5a5c2" />
+    <UnitTestResult executionId="406580ff-0747-48d5-b086-19564bd5a5c2" testId="e2a702de-802f-418d-87f1-f066f2eac7f8" testName="[Check metric exists]" computerName="BART" duration="00:00:00.1447705" startTime="2025-04-23T22:34:47.6535756+01:00" endTime="2025-04-23T22:34:47.7983461+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="95259dc6-8dcf-4bed-ac55-d3ce6842a21e" relativeResultsDirectory="406580ff-0747-48d5-b086-19564bd5a5c2">
+      <Output>
+        <ErrorInfo>
+          <Message>Error when executing the test: Query (1, 17) The syntax for &amp;#39;&amp;lt;ccon&amp;gt;Output&amp;lt;/ccon&amp;gt;&amp;#39; is incorrect. (&amp;lt;ccon&amp;gt;EVALUATE ROW (&amp;quot;&amp;quot;Output&amp;quot;&amp;quot;,FIRSTNONBLANKVALUE(&amp;#39;Geography&amp;#39;[Country]),1)
+&amp;lt;/ccon&amp;gt;). 
+ 
+Technical Details: 
+RootActivityId: d8a13f41-5060-4439-a5d5-17a6fa2eb5fc 
+Date (UTC): 4/23/2025 9:34:47 PM
+
+Description: Check metric exists and is available for visualisation.
+
+First Data Source: SemanticModel
+First Query:
+
+EVALUATE ROW (&amp;quot;&amp;quot;Output&amp;quot;&amp;quot;,FIRSTNONBLANKVALUE(&amp;#39;Geography&amp;#39;[Country]),1)
+
+
+</Message>
+          <StackTrace></StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="406580ff-0747-48d5-b086-19564bd5a5c2" testId="5ed46072-a610-4f0c-91f7-3a016ebb4f2a" testName="[Check metric exists]" computerName="BART" duration="00:00:00.1366341" startTime="2025-04-23T22:34:47.8133584+01:00" endTime="2025-04-23T22:34:47.9499925+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="95259dc6-8dcf-4bed-ac55-d3ce6842a21e" relativeResultsDirectory="406580ff-0747-48d5-b086-19564bd5a5c2">
+      <Output>
+        <ErrorInfo>
+          <Message>Error when executing the test: Query (1, 17) The syntax for &amp;#39;&amp;lt;ccon&amp;gt;Output&amp;lt;/ccon&amp;gt;&amp;#39; is incorrect. (&amp;lt;ccon&amp;gt;EVALUATE ROW (&amp;quot;&amp;quot;Output&amp;quot;&amp;quot;,FIRSTNONBLANKVALUE(&amp;#39;Date&amp;#39;[MonthName]),1)
+&amp;lt;/ccon&amp;gt;). 
+ 
+Technical Details: 
+RootActivityId: e6ea8e88-1049-4b35-acb3-7439f151ff76 
+Date (UTC): 4/23/2025 9:34:47 PM
+
+Description: Check metric exists and is available for visualisation.
+
+First Data Source: SemanticModel
+First Query:
+
+EVALUATE ROW (&amp;quot;&amp;quot;Output&amp;quot;&amp;quot;,FIRSTNONBLANKVALUE(&amp;#39;Date&amp;#39;[MonthName]),1)
+
+
+</Message>
+          <StackTrace></StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="406580ff-0747-48d5-b086-19564bd5a5c2" testId="c00f9141-7476-420e-8e0b-9a51007baed0" testName="[Check metric exists]" computerName="BART" duration="00:00:00.0729766" startTime="2025-04-23T22:34:47.9671647+01:00" endTime="2025-04-23T22:34:48.0401413+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="95259dc6-8dcf-4bed-ac55-d3ce6842a21e" relativeResultsDirectory="406580ff-0747-48d5-b086-19564bd5a5c2" />
+    <UnitTestResult executionId="406580ff-0747-48d5-b086-19564bd5a5c2" testId="88d09c1a-4a08-432f-a5b3-93897f5e92b6" testName="[Check metric exists]" computerName="BART" duration="00:00:00.1273660" startTime="2025-04-23T22:34:48.0495997+01:00" endTime="2025-04-23T22:34:48.1769657+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="95259dc6-8dcf-4bed-ac55-d3ce6842a21e" relativeResultsDirectory="406580ff-0747-48d5-b086-19564bd5a5c2">
+      <Output>
+        <ErrorInfo>
+          <Message>Error when executing the test: Query (1, 17) The syntax for &amp;#39;&amp;lt;ccon&amp;gt;Output&amp;lt;/ccon&amp;gt;&amp;#39; is incorrect. (&amp;lt;ccon&amp;gt;EVALUATE ROW (&amp;quot;&amp;quot;Output&amp;quot;&amp;quot;,FIRSTNONBLANKVALUE(&amp;#39;&amp;#39;[]),1)
+&amp;lt;/ccon&amp;gt;). 
+ 
+Technical Details: 
+RootActivityId: 867ccec7-72bd-4b7a-8090-c70a6a013161 
+Date (UTC): 4/23/2025 9:34:48 PM
+
+Description: Check metric exists and is available for visualisation.
+
+First Data Source: SemanticModel
+First Query:
+
+EVALUATE ROW (&amp;quot;&amp;quot;Output&amp;quot;&amp;quot;,FIRSTNONBLANKVALUE(&amp;#39;&amp;#39;[]),1)
+
+
+</Message>
+          <StackTrace></StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="406580ff-0747-48d5-b086-19564bd5a5c2" testId="3950136f-8e95-48d1-ae4b-d6c9fcb511eb" testName="[Check metric exists]" computerName="BART" duration="00:00:00.1485328" startTime="2025-04-23T22:34:48.1920174+01:00" endTime="2025-04-23T22:34:48.3405502+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="95259dc6-8dcf-4bed-ac55-d3ce6842a21e" relativeResultsDirectory="406580ff-0747-48d5-b086-19564bd5a5c2">
+      <Output>
+        <ErrorInfo>
+          <Message>Error when executing the test: Query (1, 17) The syntax for &amp;#39;&amp;lt;ccon&amp;gt;Output&amp;lt;/ccon&amp;gt;&amp;#39; is incorrect. (&amp;lt;ccon&amp;gt;EVALUATE ROW (&amp;quot;&amp;quot;Output&amp;quot;&amp;quot;,FIRSTNONBLANKVALUE(&amp;#39;&amp;#39;[]),1)
+&amp;lt;/ccon&amp;gt;). 
+ 
+Technical Details: 
+RootActivityId: bbf4bbf5-5117-440a-bce8-96d31dc4eeb0 
+Date (UTC): 4/23/2025 9:34:48 PM
+
+Description: Check metric exists and is available for visualisation.
+
+First Data Source: SemanticModel
+First Query:
+
+EVALUATE ROW (&amp;quot;&amp;quot;Output&amp;quot;&amp;quot;,FIRSTNONBLANKVALUE(&amp;#39;&amp;#39;[]),1)
+
+
+</Message>
+          <StackTrace></StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="406580ff-0747-48d5-b086-19564bd5a5c2" testId="968fd7fe-44f2-4252-8f61-dce9d3887a17" testName="[Check metric exists]" computerName="BART" duration="00:00:00.1533523" startTime="2025-04-23T22:34:48.3581252+01:00" endTime="2025-04-23T22:34:48.5114775+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="95259dc6-8dcf-4bed-ac55-d3ce6842a21e" relativeResultsDirectory="406580ff-0747-48d5-b086-19564bd5a5c2">
+      <Output>
+        <ErrorInfo>
+          <Message>Error when executing the test: Query (1, 24) Column &amp;#39;&amp;lt;oii&amp;gt;Average Number of Trips&amp;lt;/oii&amp;gt;&amp;#39; in table &amp;#39;&amp;lt;oii&amp;gt;Trip&amp;lt;/oii&amp;gt;&amp;#39; cannot be found or may not be used in this expression. 
+ 
+Technical Details: 
+RootActivityId: a203d623-ca4b-4ba1-b4d6-d8d591848ff2 
+Date (UTC): 4/23/2025 9:34:48 PM
+
+Description: Check metric exists and is available for visualisation.
+
+First Data Source: SemanticModel
+First Query:
+
+EVALUATE ROW (&amp;quot;Output&amp;quot;,&amp;#39;Trip&amp;#39;[Average Number of Trips])
+
+
+</Message>
+          <StackTrace></StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="406580ff-0747-48d5-b086-19564bd5a5c2" testId="dea2a67a-b11f-4215-a2b4-9eb403c8970c" testName="[Check metric exists]" computerName="BART" duration="00:00:00.1641471" startTime="2025-04-23T22:34:48.5257516+01:00" endTime="2025-04-23T22:34:48.6898987+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="95259dc6-8dcf-4bed-ac55-d3ce6842a21e" relativeResultsDirectory="406580ff-0747-48d5-b086-19564bd5a5c2">
+      <Output>
+        <ErrorInfo>
+          <Message>Error when executing the test: Query (1, 17) The syntax for &amp;#39;&amp;lt;ccon&amp;gt;Output&amp;lt;/ccon&amp;gt;&amp;#39; is incorrect. (&amp;lt;ccon&amp;gt;EVALUATE ROW (&amp;quot;&amp;quot;Output&amp;quot;&amp;quot;,FIRSTNONBLANKVALUE(&amp;#39;Date&amp;#39;[DayName]),1)
+&amp;lt;/ccon&amp;gt;). 
+ 
+Technical Details: 
+RootActivityId: da33b68c-0b07-49cf-ab10-a21708bda153 
+Date (UTC): 4/23/2025 9:34:48 PM
+
+Description: Check metric exists and is available for visualisation.
+
+First Data Source: SemanticModel
+First Query:
+
+EVALUATE ROW (&amp;quot;&amp;quot;Output&amp;quot;&amp;quot;,FIRSTNONBLANKVALUE(&amp;#39;Date&amp;#39;[DayName]),1)
+
+
+</Message>
+          <StackTrace></StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="406580ff-0747-48d5-b086-19564bd5a5c2" testId="fcb7558c-8c57-4859-87e0-3759fac88351" testName="[Check metric exists]" computerName="BART" duration="00:00:00.1215467" startTime="2025-04-23T22:34:48.7066522+01:00" endTime="2025-04-23T22:34:48.8281989+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="95259dc6-8dcf-4bed-ac55-d3ce6842a21e" relativeResultsDirectory="406580ff-0747-48d5-b086-19564bd5a5c2">
+      <Output>
+        <ErrorInfo>
+          <Message>Error when executing the test: Query (1, 17) The syntax for &amp;#39;&amp;lt;ccon&amp;gt;Output&amp;lt;/ccon&amp;gt;&amp;#39; is incorrect. (&amp;lt;ccon&amp;gt;EVALUATE ROW (&amp;quot;&amp;quot;Output&amp;quot;&amp;quot;,FIRSTNONBLANKVALUE(&amp;#39;Time&amp;#39;[HourNumber]),1)
+&amp;lt;/ccon&amp;gt;). 
+ 
+Technical Details: 
+RootActivityId: dcfebf4c-5ac6-4bc3-88db-7b7b8bb47c6d 
+Date (UTC): 4/23/2025 9:34:48 PM
+
+Description: Check metric exists and is available for visualisation.
+
+First Data Source: SemanticModel
+First Query:
+
+EVALUATE ROW (&amp;quot;&amp;quot;Output&amp;quot;&amp;quot;,FIRSTNONBLANKVALUE(&amp;#39;Time&amp;#39;[HourNumber]),1)
+
+
+</Message>
+          <StackTrace></StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="406580ff-0747-48d5-b086-19564bd5a5c2" testId="76b6a1b9-d384-43a4-a9ba-fb79d103ba5f" testName="[Check metric exists]" computerName="BART" duration="00:00:00.3584774" startTime="2025-04-23T22:34:48.8401563+01:00" endTime="2025-04-23T22:34:49.1986337+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="95259dc6-8dcf-4bed-ac55-d3ce6842a21e" relativeResultsDirectory="406580ff-0747-48d5-b086-19564bd5a5c2" />
+    <UnitTestResult executionId="406580ff-0747-48d5-b086-19564bd5a5c2" testId="b3734d9a-f62a-4e93-bcb1-8fc7f9ac9a34" testName="[Check metric exists]" computerName="BART" duration="00:00:00.1140152" startTime="2025-04-23T22:34:49.2081883+01:00" endTime="2025-04-23T22:34:49.3222035+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="95259dc6-8dcf-4bed-ac55-d3ce6842a21e" relativeResultsDirectory="406580ff-0747-48d5-b086-19564bd5a5c2">
+      <Output>
+        <ErrorInfo>
+          <Message>Error when executing the test: Query (1, 17) The syntax for &amp;#39;&amp;lt;ccon&amp;gt;Output&amp;lt;/ccon&amp;gt;&amp;#39; is incorrect. (&amp;lt;ccon&amp;gt;EVALUATE ROW (&amp;quot;&amp;quot;Output&amp;quot;&amp;quot;,FIRSTNONBLANKVALUE(&amp;#39;Time&amp;#39;[HourNumber]),1)
+&amp;lt;/ccon&amp;gt;). 
+ 
+Technical Details: 
+RootActivityId: 4aaed6a9-263f-4983-9f02-65f379d818aa 
+Date (UTC): 4/23/2025 9:34:49 PM
+
+Description: Check metric exists and is available for visualisation.
+
+First Data Source: SemanticModel
+First Query:
+
+EVALUATE ROW (&amp;quot;&amp;quot;Output&amp;quot;&amp;quot;,FIRSTNONBLANKVALUE(&amp;#39;Time&amp;#39;[HourNumber]),1)
+
+
+</Message>
+          <StackTrace></StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="406580ff-0747-48d5-b086-19564bd5a5c2" testId="8b93aa76-1bbf-4a14-b1cc-19a8456f4dba" testName="[Check metric exists]" computerName="BART" duration="00:00:00.1348346" startTime="2025-04-23T22:34:49.3346312+01:00" endTime="2025-04-23T22:34:49.4694658+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="95259dc6-8dcf-4bed-ac55-d3ce6842a21e" relativeResultsDirectory="406580ff-0747-48d5-b086-19564bd5a5c2">
+      <Output>
+        <ErrorInfo>
+          <Message>Error when executing the test: Query (1, 17) The syntax for &amp;#39;&amp;lt;ccon&amp;gt;Output&amp;lt;/ccon&amp;gt;&amp;#39; is incorrect. (&amp;lt;ccon&amp;gt;EVALUATE ROW (&amp;quot;&amp;quot;Output&amp;quot;&amp;quot;,FIRSTNONBLANKVALUE(&amp;#39;&amp;#39;[]),1)
+&amp;lt;/ccon&amp;gt;). 
+ 
+Technical Details: 
+RootActivityId: 7a09d422-88d5-4e27-833c-4cb4703fc608 
+Date (UTC): 4/23/2025 9:34:49 PM
+
+Description: Check metric exists and is available for visualisation.
+
+First Data Source: SemanticModel
+First Query:
+
+EVALUATE ROW (&amp;quot;&amp;quot;Output&amp;quot;&amp;quot;,FIRSTNONBLANKVALUE(&amp;#39;&amp;#39;[]),1)
+
+
+</Message>
+          <StackTrace></StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="406580ff-0747-48d5-b086-19564bd5a5c2" testId="2dd2cdd1-c771-47e6-b8c7-25e58ebffe41" testName="[Check metric exists]" computerName="BART" duration="00:00:00.1226882" startTime="2025-04-23T22:34:49.4836890+01:00" endTime="2025-04-23T22:34:49.6063772+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="95259dc6-8dcf-4bed-ac55-d3ce6842a21e" relativeResultsDirectory="406580ff-0747-48d5-b086-19564bd5a5c2">
+      <Output>
+        <ErrorInfo>
+          <Message>Error when executing the test: Query (1, 17) The syntax for &amp;#39;&amp;lt;ccon&amp;gt;Output&amp;lt;/ccon&amp;gt;&amp;#39; is incorrect. (&amp;lt;ccon&amp;gt;EVALUATE ROW (&amp;quot;&amp;quot;Output&amp;quot;&amp;quot;,FIRSTNONBLANKVALUE(&amp;#39;&amp;#39;[]),1)
+&amp;lt;/ccon&amp;gt;). 
+ 
+Technical Details: 
+RootActivityId: 219cdc85-2b03-4023-8cbc-b49566b94824 
+Date (UTC): 4/23/2025 9:34:49 PM
+
+Description: Check metric exists and is available for visualisation.
+
+First Data Source: SemanticModel
+First Query:
+
+EVALUATE ROW (&amp;quot;&amp;quot;Output&amp;quot;&amp;quot;,FIRSTNONBLANKVALUE(&amp;#39;&amp;#39;[]),1)
+
+
+</Message>
+          <StackTrace></StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="406580ff-0747-48d5-b086-19564bd5a5c2" testId="e0e98868-48ea-4457-9d69-e3efe369c8b5" testName="[Check metric exists]" computerName="BART" duration="00:00:00.0772745" startTime="2025-04-23T22:34:49.6226408+01:00" endTime="2025-04-23T22:34:49.6999153+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="95259dc6-8dcf-4bed-ac55-d3ce6842a21e" relativeResultsDirectory="406580ff-0747-48d5-b086-19564bd5a5c2" />
+    <UnitTestResult executionId="406580ff-0747-48d5-b086-19564bd5a5c2" testId="d714e2fc-c89f-46c6-9fab-b03d9a879f40" testName="[Check metric exists]" computerName="BART" duration="00:00:00.1157670" startTime="2025-04-23T22:34:49.7091700+01:00" endTime="2025-04-23T22:34:49.8249370+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="95259dc6-8dcf-4bed-ac55-d3ce6842a21e" relativeResultsDirectory="406580ff-0747-48d5-b086-19564bd5a5c2">
+      <Output>
+        <ErrorInfo>
+          <Message>Error when executing the test: Query (1, 17) The syntax for &amp;#39;&amp;lt;ccon&amp;gt;Output&amp;lt;/ccon&amp;gt;&amp;#39; is incorrect. (&amp;lt;ccon&amp;gt;EVALUATE ROW (&amp;quot;&amp;quot;Output&amp;quot;&amp;quot;,FIRSTNONBLANKVALUE(&amp;#39;Geography&amp;#39;[ZipCode]),1)
+&amp;lt;/ccon&amp;gt;). 
+ 
+Technical Details: 
+RootActivityId: c1b8e15d-c98c-4086-95d5-6aaeccc3a7e5 
+Date (UTC): 4/23/2025 9:34:49 PM
+
+Description: Check metric exists and is available for visualisation.
+
+First Data Source: SemanticModel
+First Query:
+
+EVALUATE ROW (&amp;quot;&amp;quot;Output&amp;quot;&amp;quot;,FIRSTNONBLANKVALUE(&amp;#39;Geography&amp;#39;[ZipCode]),1)
+
+
+</Message>
+          <StackTrace></StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="406580ff-0747-48d5-b086-19564bd5a5c2" testId="8a75310e-f2e5-4dd0-bf04-9097c1c87c59" testName="[Check metric exists]" computerName="BART" duration="00:00:00.1204570" startTime="2025-04-23T22:34:49.8387395+01:00" endTime="2025-04-23T22:34:49.9591965+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="95259dc6-8dcf-4bed-ac55-d3ce6842a21e" relativeResultsDirectory="406580ff-0747-48d5-b086-19564bd5a5c2">
+      <Output>
+        <ErrorInfo>
+          <Message>Error when executing the test: Query (1, 17) The syntax for &amp;#39;&amp;lt;ccon&amp;gt;Output&amp;lt;/ccon&amp;gt;&amp;#39; is incorrect. (&amp;lt;ccon&amp;gt;EVALUATE ROW (&amp;quot;&amp;quot;Output&amp;quot;&amp;quot;,FIRSTNONBLANKVALUE(&amp;#39;&amp;#39;[]),1)
+&amp;lt;/ccon&amp;gt;). 
+ 
+Technical Details: 
+RootActivityId: 3ab45b9e-80b5-4117-bd38-fdc7314bb04e 
+Date (UTC): 4/23/2025 9:34:49 PM
+
+Description: Check metric exists and is available for visualisation.
+
+First Data Source: SemanticModel
+First Query:
+
+EVALUATE ROW (&amp;quot;&amp;quot;Output&amp;quot;&amp;quot;,FIRSTNONBLANKVALUE(&amp;#39;&amp;#39;[]),1)
+
+
+</Message>
+          <StackTrace></StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="[Check metric exists]" storage="C:\Users\sarah\Documents\Presentations\repo\AutomatedTesting\tests" id="81204faf-e3e4-487a-b4be-be49c5794b68">
+      <Execution id="406580ff-0747-48d5-b086-19564bd5a5c2" />
+      <TestMethod codeBase="C:\Users\sarah\Documents\Presentations\repo\AutomatedTesting\tests" adapterTypeName="executor://cat/" className="" name="[Check metric exists]" xmlns="" />
+    </UnitTest>
+    <UnitTest name="[Check metric exists]" storage="C:\Users\sarah\Documents\Presentations\repo\AutomatedTesting\tests" id="a4a29059-1178-4bde-a6e0-d1c8283b5b83">
+      <Execution id="406580ff-0747-48d5-b086-19564bd5a5c2" />
+      <TestMethod codeBase="C:\Users\sarah\Documents\Presentations\repo\AutomatedTesting\tests" adapterTypeName="executor://cat/" className="" name="[Check metric exists]" xmlns="" />
+    </UnitTest>
+    <UnitTest name="[Check metric exists]" storage="C:\Users\sarah\Documents\Presentations\repo\AutomatedTesting\tests" id="f252bee0-bb63-4377-bfe7-8fbe1f897fba">
+      <Execution id="406580ff-0747-48d5-b086-19564bd5a5c2" />
+      <TestMethod codeBase="C:\Users\sarah\Documents\Presentations\repo\AutomatedTesting\tests" adapterTypeName="executor://cat/" className="" name="[Check metric exists]" xmlns="" />
+    </UnitTest>
+    <UnitTest name="[Check metric exists]" storage="C:\Users\sarah\Documents\Presentations\repo\AutomatedTesting\tests" id="c7cf4438-9282-4d46-bcd6-eee55649e70b">
+      <Execution id="406580ff-0747-48d5-b086-19564bd5a5c2" />
+      <TestMethod codeBase="C:\Users\sarah\Documents\Presentations\repo\AutomatedTesting\tests" adapterTypeName="executor://cat/" className="" name="[Check metric exists]" xmlns="" />
+    </UnitTest>
+    <UnitTest name="[Check metric exists]" storage="C:\Users\sarah\Documents\Presentations\repo\AutomatedTesting\tests" id="e2a702de-802f-418d-87f1-f066f2eac7f8">
+      <Execution id="406580ff-0747-48d5-b086-19564bd5a5c2" />
+      <TestMethod codeBase="C:\Users\sarah\Documents\Presentations\repo\AutomatedTesting\tests" adapterTypeName="executor://cat/" className="" name="[Check metric exists]" xmlns="" />
+    </UnitTest>
+    <UnitTest name="[Check metric exists]" storage="C:\Users\sarah\Documents\Presentations\repo\AutomatedTesting\tests" id="5ed46072-a610-4f0c-91f7-3a016ebb4f2a">
+      <Execution id="406580ff-0747-48d5-b086-19564bd5a5c2" />
+      <TestMethod codeBase="C:\Users\sarah\Documents\Presentations\repo\AutomatedTesting\tests" adapterTypeName="executor://cat/" className="" name="[Check metric exists]" xmlns="" />
+    </UnitTest>
+    <UnitTest name="[Check metric exists]" storage="C:\Users\sarah\Documents\Presentations\repo\AutomatedTesting\tests" id="c00f9141-7476-420e-8e0b-9a51007baed0">
+      <Execution id="406580ff-0747-48d5-b086-19564bd5a5c2" />
+      <TestMethod codeBase="C:\Users\sarah\Documents\Presentations\repo\AutomatedTesting\tests" adapterTypeName="executor://cat/" className="" name="[Check metric exists]" xmlns="" />
+    </UnitTest>
+    <UnitTest name="[Check metric exists]" storage="C:\Users\sarah\Documents\Presentations\repo\AutomatedTesting\tests" id="88d09c1a-4a08-432f-a5b3-93897f5e92b6">
+      <Execution id="406580ff-0747-48d5-b086-19564bd5a5c2" />
+      <TestMethod codeBase="C:\Users\sarah\Documents\Presentations\repo\AutomatedTesting\tests" adapterTypeName="executor://cat/" className="" name="[Check metric exists]" xmlns="" />
+    </UnitTest>
+    <UnitTest name="[Check metric exists]" storage="C:\Users\sarah\Documents\Presentations\repo\AutomatedTesting\tests" id="3950136f-8e95-48d1-ae4b-d6c9fcb511eb">
+      <Execution id="406580ff-0747-48d5-b086-19564bd5a5c2" />
+      <TestMethod codeBase="C:\Users\sarah\Documents\Presentations\repo\AutomatedTesting\tests" adapterTypeName="executor://cat/" className="" name="[Check metric exists]" xmlns="" />
+    </UnitTest>
+    <UnitTest name="[Check metric exists]" storage="C:\Users\sarah\Documents\Presentations\repo\AutomatedTesting\tests" id="968fd7fe-44f2-4252-8f61-dce9d3887a17">
+      <Execution id="406580ff-0747-48d5-b086-19564bd5a5c2" />
+      <TestMethod codeBase="C:\Users\sarah\Documents\Presentations\repo\AutomatedTesting\tests" adapterTypeName="executor://cat/" className="" name="[Check metric exists]" xmlns="" />
+    </UnitTest>
+    <UnitTest name="[Check metric exists]" storage="C:\Users\sarah\Documents\Presentations\repo\AutomatedTesting\tests" id="dea2a67a-b11f-4215-a2b4-9eb403c8970c">
+      <Execution id="406580ff-0747-48d5-b086-19564bd5a5c2" />
+      <TestMethod codeBase="C:\Users\sarah\Documents\Presentations\repo\AutomatedTesting\tests" adapterTypeName="executor://cat/" className="" name="[Check metric exists]" xmlns="" />
+    </UnitTest>
+    <UnitTest name="[Check metric exists]" storage="C:\Users\sarah\Documents\Presentations\repo\AutomatedTesting\tests" id="fcb7558c-8c57-4859-87e0-3759fac88351">
+      <Execution id="406580ff-0747-48d5-b086-19564bd5a5c2" />
+      <TestMethod codeBase="C:\Users\sarah\Documents\Presentations\repo\AutomatedTesting\tests" adapterTypeName="executor://cat/" className="" name="[Check metric exists]" xmlns="" />
+    </UnitTest>
+    <UnitTest name="[Check metric exists]" storage="C:\Users\sarah\Documents\Presentations\repo\AutomatedTesting\tests" id="76b6a1b9-d384-43a4-a9ba-fb79d103ba5f">
+      <Execution id="406580ff-0747-48d5-b086-19564bd5a5c2" />
+      <TestMethod codeBase="C:\Users\sarah\Documents\Presentations\repo\AutomatedTesting\tests" adapterTypeName="executor://cat/" className="" name="[Check metric exists]" xmlns="" />
+    </UnitTest>
+    <UnitTest name="[Check metric exists]" storage="C:\Users\sarah\Documents\Presentations\repo\AutomatedTesting\tests" id="b3734d9a-f62a-4e93-bcb1-8fc7f9ac9a34">
+      <Execution id="406580ff-0747-48d5-b086-19564bd5a5c2" />
+      <TestMethod codeBase="C:\Users\sarah\Documents\Presentations\repo\AutomatedTesting\tests" adapterTypeName="executor://cat/" className="" name="[Check metric exists]" xmlns="" />
+    </UnitTest>
+    <UnitTest name="[Check metric exists]" storage="C:\Users\sarah\Documents\Presentations\repo\AutomatedTesting\tests" id="8b93aa76-1bbf-4a14-b1cc-19a8456f4dba">
+      <Execution id="406580ff-0747-48d5-b086-19564bd5a5c2" />
+      <TestMethod codeBase="C:\Users\sarah\Documents\Presentations\repo\AutomatedTesting\tests" adapterTypeName="executor://cat/" className="" name="[Check metric exists]" xmlns="" />
+    </UnitTest>
+    <UnitTest name="[Check metric exists]" storage="C:\Users\sarah\Documents\Presentations\repo\AutomatedTesting\tests" id="2dd2cdd1-c771-47e6-b8c7-25e58ebffe41">
+      <Execution id="406580ff-0747-48d5-b086-19564bd5a5c2" />
+      <TestMethod codeBase="C:\Users\sarah\Documents\Presentations\repo\AutomatedTesting\tests" adapterTypeName="executor://cat/" className="" name="[Check metric exists]" xmlns="" />
+    </UnitTest>
+    <UnitTest name="[Check metric exists]" storage="C:\Users\sarah\Documents\Presentations\repo\AutomatedTesting\tests" id="e0e98868-48ea-4457-9d69-e3efe369c8b5">
+      <Execution id="406580ff-0747-48d5-b086-19564bd5a5c2" />
+      <TestMethod codeBase="C:\Users\sarah\Documents\Presentations\repo\AutomatedTesting\tests" adapterTypeName="executor://cat/" className="" name="[Check metric exists]" xmlns="" />
+    </UnitTest>
+    <UnitTest name="[Check metric exists]" storage="C:\Users\sarah\Documents\Presentations\repo\AutomatedTesting\tests" id="d714e2fc-c89f-46c6-9fab-b03d9a879f40">
+      <Execution id="406580ff-0747-48d5-b086-19564bd5a5c2" />
+      <TestMethod codeBase="C:\Users\sarah\Documents\Presentations\repo\AutomatedTesting\tests" adapterTypeName="executor://cat/" className="" name="[Check metric exists]" xmlns="" />
+    </UnitTest>
+    <UnitTest name="[Check metric exists]" storage="C:\Users\sarah\Documents\Presentations\repo\AutomatedTesting\tests" id="8a75310e-f2e5-4dd0-bf04-9097c1c87c59">
+      <Execution id="406580ff-0747-48d5-b086-19564bd5a5c2" />
+      <TestMethod codeBase="C:\Users\sarah\Documents\Presentations\repo\AutomatedTesting\tests" adapterTypeName="executor://cat/" className="" name="[Check metric exists]" xmlns="" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="81204faf-e3e4-487a-b4be-be49c5794b68" executionId="406580ff-0747-48d5-b086-19564bd5a5c2" testListId="95259dc6-8dcf-4bed-ac55-d3ce6842a21e" />
+    <TestEntry testId="a4a29059-1178-4bde-a6e0-d1c8283b5b83" executionId="406580ff-0747-48d5-b086-19564bd5a5c2" testListId="95259dc6-8dcf-4bed-ac55-d3ce6842a21e" />
+    <TestEntry testId="f252bee0-bb63-4377-bfe7-8fbe1f897fba" executionId="406580ff-0747-48d5-b086-19564bd5a5c2" testListId="95259dc6-8dcf-4bed-ac55-d3ce6842a21e" />
+    <TestEntry testId="c7cf4438-9282-4d46-bcd6-eee55649e70b" executionId="406580ff-0747-48d5-b086-19564bd5a5c2" testListId="95259dc6-8dcf-4bed-ac55-d3ce6842a21e" />
+    <TestEntry testId="e2a702de-802f-418d-87f1-f066f2eac7f8" executionId="406580ff-0747-48d5-b086-19564bd5a5c2" testListId="95259dc6-8dcf-4bed-ac55-d3ce6842a21e" />
+    <TestEntry testId="5ed46072-a610-4f0c-91f7-3a016ebb4f2a" executionId="406580ff-0747-48d5-b086-19564bd5a5c2" testListId="95259dc6-8dcf-4bed-ac55-d3ce6842a21e" />
+    <TestEntry testId="c00f9141-7476-420e-8e0b-9a51007baed0" executionId="406580ff-0747-48d5-b086-19564bd5a5c2" testListId="95259dc6-8dcf-4bed-ac55-d3ce6842a21e" />
+    <TestEntry testId="88d09c1a-4a08-432f-a5b3-93897f5e92b6" executionId="406580ff-0747-48d5-b086-19564bd5a5c2" testListId="95259dc6-8dcf-4bed-ac55-d3ce6842a21e" />
+    <TestEntry testId="3950136f-8e95-48d1-ae4b-d6c9fcb511eb" executionId="406580ff-0747-48d5-b086-19564bd5a5c2" testListId="95259dc6-8dcf-4bed-ac55-d3ce6842a21e" />
+    <TestEntry testId="968fd7fe-44f2-4252-8f61-dce9d3887a17" executionId="406580ff-0747-48d5-b086-19564bd5a5c2" testListId="95259dc6-8dcf-4bed-ac55-d3ce6842a21e" />
+    <TestEntry testId="dea2a67a-b11f-4215-a2b4-9eb403c8970c" executionId="406580ff-0747-48d5-b086-19564bd5a5c2" testListId="95259dc6-8dcf-4bed-ac55-d3ce6842a21e" />
+    <TestEntry testId="fcb7558c-8c57-4859-87e0-3759fac88351" executionId="406580ff-0747-48d5-b086-19564bd5a5c2" testListId="95259dc6-8dcf-4bed-ac55-d3ce6842a21e" />
+    <TestEntry testId="76b6a1b9-d384-43a4-a9ba-fb79d103ba5f" executionId="406580ff-0747-48d5-b086-19564bd5a5c2" testListId="95259dc6-8dcf-4bed-ac55-d3ce6842a21e" />
+    <TestEntry testId="b3734d9a-f62a-4e93-bcb1-8fc7f9ac9a34" executionId="406580ff-0747-48d5-b086-19564bd5a5c2" testListId="95259dc6-8dcf-4bed-ac55-d3ce6842a21e" />
+    <TestEntry testId="8b93aa76-1bbf-4a14-b1cc-19a8456f4dba" executionId="406580ff-0747-48d5-b086-19564bd5a5c2" testListId="95259dc6-8dcf-4bed-ac55-d3ce6842a21e" />
+    <TestEntry testId="2dd2cdd1-c771-47e6-b8c7-25e58ebffe41" executionId="406580ff-0747-48d5-b086-19564bd5a5c2" testListId="95259dc6-8dcf-4bed-ac55-d3ce6842a21e" />
+    <TestEntry testId="e0e98868-48ea-4457-9d69-e3efe369c8b5" executionId="406580ff-0747-48d5-b086-19564bd5a5c2" testListId="95259dc6-8dcf-4bed-ac55-d3ce6842a21e" />
+    <TestEntry testId="d714e2fc-c89f-46c6-9fab-b03d9a879f40" executionId="406580ff-0747-48d5-b086-19564bd5a5c2" testListId="95259dc6-8dcf-4bed-ac55-d3ce6842a21e" />
+    <TestEntry testId="8a75310e-f2e5-4dd0-bf04-9097c1c87c59" executionId="406580ff-0747-48d5-b086-19564bd5a5c2" testListId="95259dc6-8dcf-4bed-ac55-d3ce6842a21e" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="95259dc6-8dcf-4bed-ac55-d3ce6842a21e" />
+    <TestList name="All Loaded Results" id="ebebb1b1-10c8-4197-9cb7-834fb9327ef5" />
+  </TestLists>
+  <ResultSummary outcome="Failed">
+    <Counters total="19" executed="19" passed="5" failed="0" error="14" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>Generated by CAT 1.15.1.1. Developed by Joyful Craftsmen (https://www.joyfulcraftsmen.com).</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>

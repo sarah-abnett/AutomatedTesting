@@ -1,13 +1,3 @@
-﻿Data Sources:
-- Name: SemanticModel 
-  Provider: Dax@1 
-  ConnectionString:   >
-      Provider=MSOLAP;
-      Data Source=powerbi://api.powerbi.com/v1.0/myorg/PBIBrum;
-      Initial Catalog=DemoSemanticModel;
-      User ID=%Demo_Service_Principle_Application_ID%;
-      Password=%Demo_Service_Principle_Secret%;
-
 Tests:
 - Name: Check metric exists
   Description: > 
@@ -107,6 +97,3 @@ Tests:
   Query: |
     EVALUATE ROW ("Output",FIRSTNONBLANKVALUE('Geography'[ZipCode],1))
   Expectation: set is not empty
-
-
-Output: trx  

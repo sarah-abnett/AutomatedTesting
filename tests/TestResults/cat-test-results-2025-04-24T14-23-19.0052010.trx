@@ -1,0 +1,127 @@
+﻿<TestRun id="4165ccef-d571-439e-b7e8-18b4afc2022f" name="sarah@BART 2025-04-24 14:23:19" runUser="BART\sarah" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2025-04-24T14:23:19.0001876+01:00" queuing="2025-04-24T14:23:19.0001876+01:00" start="2025-04-24T14:23:19.0001876+01:00" finish="2025-04-24T14:23:26.9394210+01:00" />
+  <TestSettings name="default" id="a217f96c-00ce-403c-b401-7809c3131ca6">
+    <Deployment runDeploymentRoot="sarah_BART_2025-04-24_14_23_19" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="ad5c0545-dc75-4740-be4b-030e24e1bc39" testId="f4a3b660-635a-46a6-9c2c-fd73fae19769" testName="[Check metric exists]" computerName="BART" duration="00:00:01.3125737" startTime="2025-04-24T14:23:24.5667495+01:00" endTime="2025-04-24T14:23:25.8793232+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="027efe86-4472-4935-b088-96d3e7bba2ad" relativeResultsDirectory="ad5c0545-dc75-4740-be4b-030e24e1bc39" />
+    <UnitTestResult executionId="ad5c0545-dc75-4740-be4b-030e24e1bc39" testId="b0bde789-419b-481d-88f6-b3596c112d0d" testName="[Check metric exists]" computerName="BART" duration="00:00:00.0481991" startTime="2025-04-24T14:23:25.9007595+01:00" endTime="2025-04-24T14:23:25.9489586+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="027efe86-4472-4935-b088-96d3e7bba2ad" relativeResultsDirectory="ad5c0545-dc75-4740-be4b-030e24e1bc39" />
+    <UnitTestResult executionId="ad5c0545-dc75-4740-be4b-030e24e1bc39" testId="a1779db6-6fb8-4ed7-a9bd-8bc5c65fcb49" testName="[Check metric exists]" computerName="BART" duration="00:00:00.0451030" startTime="2025-04-24T14:23:25.9511248+01:00" endTime="2025-04-24T14:23:25.9962278+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="027efe86-4472-4935-b088-96d3e7bba2ad" relativeResultsDirectory="ad5c0545-dc75-4740-be4b-030e24e1bc39" />
+    <UnitTestResult executionId="ad5c0545-dc75-4740-be4b-030e24e1bc39" testId="65bdec38-934b-4959-b090-815682d65e69" testName="[Check metric exists]" computerName="BART" duration="00:00:00.0564817" startTime="2025-04-24T14:23:25.9992236+01:00" endTime="2025-04-24T14:23:26.0557053+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="027efe86-4472-4935-b088-96d3e7bba2ad" relativeResultsDirectory="ad5c0545-dc75-4740-be4b-030e24e1bc39" />
+    <UnitTestResult executionId="ad5c0545-dc75-4740-be4b-030e24e1bc39" testId="f22f7825-c8e9-4b08-bd99-213373536bdb" testName="[Check metric exists]" computerName="BART" duration="00:00:00.0463500" startTime="2025-04-24T14:23:26.0582097+01:00" endTime="2025-04-24T14:23:26.1045597+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="027efe86-4472-4935-b088-96d3e7bba2ad" relativeResultsDirectory="ad5c0545-dc75-4740-be4b-030e24e1bc39" />
+    <UnitTestResult executionId="ad5c0545-dc75-4740-be4b-030e24e1bc39" testId="3b204c31-23d9-4c43-b18b-8cc53ed4f67d" testName="[Check metric exists]" computerName="BART" duration="00:00:00.0536586" startTime="2025-04-24T14:23:26.1120742+01:00" endTime="2025-04-24T14:23:26.1657328+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="027efe86-4472-4935-b088-96d3e7bba2ad" relativeResultsDirectory="ad5c0545-dc75-4740-be4b-030e24e1bc39" />
+    <UnitTestResult executionId="ad5c0545-dc75-4740-be4b-030e24e1bc39" testId="dff46a55-e0e1-4be2-8fce-82a2c8c3eb8a" testName="[Check metric exists]" computerName="BART" duration="00:00:00.0469009" startTime="2025-04-24T14:23:26.1683802+01:00" endTime="2025-04-24T14:23:26.2152811+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="027efe86-4472-4935-b088-96d3e7bba2ad" relativeResultsDirectory="ad5c0545-dc75-4740-be4b-030e24e1bc39" />
+    <UnitTestResult executionId="ad5c0545-dc75-4740-be4b-030e24e1bc39" testId="4f12a679-fe4c-49b0-bafa-10eca2b63ee7" testName="[Check metric exists]" computerName="BART" duration="00:00:00.0938881" startTime="2025-04-24T14:23:26.2189991+01:00" endTime="2025-04-24T14:23:26.3128872+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="027efe86-4472-4935-b088-96d3e7bba2ad" relativeResultsDirectory="ad5c0545-dc75-4740-be4b-030e24e1bc39">
+      <Output>
+        <ErrorInfo>
+          <Message>Error when executing the test: Query (1, 24) Column &amp;#39;&amp;lt;oii&amp;gt;Average Number of Trips&amp;lt;/oii&amp;gt;&amp;#39; in table &amp;#39;&amp;lt;oii&amp;gt;Trip&amp;lt;/oii&amp;gt;&amp;#39; cannot be found or may not be used in this expression. 
+ 
+Technical Details: 
+RootActivityId: cd6cbf72-0d17-474d-9c25-b371e8f28c0f 
+Date (UTC): 4/24/2025 1:23:26 PM
+
+Description: Check metric exists and is available for visualisation.
+
+First Data Source: SemanticModel
+First Query:
+
+EVALUATE ROW (&amp;quot;Output&amp;quot;,&amp;#39;Trip&amp;#39;[Average Number of Trips])
+
+
+</Message>
+          <StackTrace></StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ad5c0545-dc75-4740-be4b-030e24e1bc39" testId="745e2882-b674-4398-a87b-66d054dfdf33" testName="[Check metric exists]" computerName="BART" duration="00:00:00.0825502" startTime="2025-04-24T14:23:26.3165324+01:00" endTime="2025-04-24T14:23:26.3990826+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="027efe86-4472-4935-b088-96d3e7bba2ad" relativeResultsDirectory="ad5c0545-dc75-4740-be4b-030e24e1bc39" />
+    <UnitTestResult executionId="ad5c0545-dc75-4740-be4b-030e24e1bc39" testId="cecc7b99-b189-41a2-a856-5c4de71fe83c" testName="[Check metric exists]" computerName="BART" duration="00:00:00.0512015" startTime="2025-04-24T14:23:26.4017147+01:00" endTime="2025-04-24T14:23:26.4529162+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="027efe86-4472-4935-b088-96d3e7bba2ad" relativeResultsDirectory="ad5c0545-dc75-4740-be4b-030e24e1bc39" />
+    <UnitTestResult executionId="ad5c0545-dc75-4740-be4b-030e24e1bc39" testId="403f079c-37c9-4f3f-82f4-b8424ff97655" testName="[Check metric exists]" computerName="BART" duration="00:00:00.1037834" startTime="2025-04-24T14:23:26.4563050+01:00" endTime="2025-04-24T14:23:26.5600884+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="027efe86-4472-4935-b088-96d3e7bba2ad" relativeResultsDirectory="ad5c0545-dc75-4740-be4b-030e24e1bc39" />
+    <UnitTestResult executionId="ad5c0545-dc75-4740-be4b-030e24e1bc39" testId="9bc29d14-715e-45c6-b6d6-7413960920d6" testName="[Check metric exists]" computerName="BART" duration="00:00:00.0856538" startTime="2025-04-24T14:23:26.5641184+01:00" endTime="2025-04-24T14:23:26.6497722+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="027efe86-4472-4935-b088-96d3e7bba2ad" relativeResultsDirectory="ad5c0545-dc75-4740-be4b-030e24e1bc39" />
+    <UnitTestResult executionId="ad5c0545-dc75-4740-be4b-030e24e1bc39" testId="d6e7d088-6371-4654-b802-584820039dd4" testName="[Check metric exists]" computerName="BART" duration="00:00:00.0668939" startTime="2025-04-24T14:23:26.6533878+01:00" endTime="2025-04-24T14:23:26.7202817+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="027efe86-4472-4935-b088-96d3e7bba2ad" relativeResultsDirectory="ad5c0545-dc75-4740-be4b-030e24e1bc39" />
+    <UnitTestResult executionId="ad5c0545-dc75-4740-be4b-030e24e1bc39" testId="1ab0e93c-658a-47e5-8695-73a1b0ff38c3" testName="[Check metric exists]" computerName="BART" duration="00:00:00.0824192" startTime="2025-04-24T14:23:26.7228788+01:00" endTime="2025-04-24T14:23:26.8052980+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="027efe86-4472-4935-b088-96d3e7bba2ad" relativeResultsDirectory="ad5c0545-dc75-4740-be4b-030e24e1bc39" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="[Check metric exists]" storage="C:\Users\sarah\Documents\Presentations\repo\AutomatedTesting\tests" id="f4a3b660-635a-46a6-9c2c-fd73fae19769">
+      <Execution id="ad5c0545-dc75-4740-be4b-030e24e1bc39" />
+      <TestMethod codeBase="C:\Users\sarah\Documents\Presentations\repo\AutomatedTesting\tests" adapterTypeName="executor://cat/" className="" name="[Check metric exists]" xmlns="" />
+    </UnitTest>
+    <UnitTest name="[Check metric exists]" storage="C:\Users\sarah\Documents\Presentations\repo\AutomatedTesting\tests" id="b0bde789-419b-481d-88f6-b3596c112d0d">
+      <Execution id="ad5c0545-dc75-4740-be4b-030e24e1bc39" />
+      <TestMethod codeBase="C:\Users\sarah\Documents\Presentations\repo\AutomatedTesting\tests" adapterTypeName="executor://cat/" className="" name="[Check metric exists]" xmlns="" />
+    </UnitTest>
+    <UnitTest name="[Check metric exists]" storage="C:\Users\sarah\Documents\Presentations\repo\AutomatedTesting\tests" id="a1779db6-6fb8-4ed7-a9bd-8bc5c65fcb49">
+      <Execution id="ad5c0545-dc75-4740-be4b-030e24e1bc39" />
+      <TestMethod codeBase="C:\Users\sarah\Documents\Presentations\repo\AutomatedTesting\tests" adapterTypeName="executor://cat/" className="" name="[Check metric exists]" xmlns="" />
+    </UnitTest>
+    <UnitTest name="[Check metric exists]" storage="C:\Users\sarah\Documents\Presentations\repo\AutomatedTesting\tests" id="65bdec38-934b-4959-b090-815682d65e69">
+      <Execution id="ad5c0545-dc75-4740-be4b-030e24e1bc39" />
+      <TestMethod codeBase="C:\Users\sarah\Documents\Presentations\repo\AutomatedTesting\tests" adapterTypeName="executor://cat/" className="" name="[Check metric exists]" xmlns="" />
+    </UnitTest>
+    <UnitTest name="[Check metric exists]" storage="C:\Users\sarah\Documents\Presentations\repo\AutomatedTesting\tests" id="f22f7825-c8e9-4b08-bd99-213373536bdb">
+      <Execution id="ad5c0545-dc75-4740-be4b-030e24e1bc39" />
+      <TestMethod codeBase="C:\Users\sarah\Documents\Presentations\repo\AutomatedTesting\tests" adapterTypeName="executor://cat/" className="" name="[Check metric exists]" xmlns="" />
+    </UnitTest>
+    <UnitTest name="[Check metric exists]" storage="C:\Users\sarah\Documents\Presentations\repo\AutomatedTesting\tests" id="3b204c31-23d9-4c43-b18b-8cc53ed4f67d">
+      <Execution id="ad5c0545-dc75-4740-be4b-030e24e1bc39" />
+      <TestMethod codeBase="C:\Users\sarah\Documents\Presentations\repo\AutomatedTesting\tests" adapterTypeName="executor://cat/" className="" name="[Check metric exists]" xmlns="" />
+    </UnitTest>
+    <UnitTest name="[Check metric exists]" storage="C:\Users\sarah\Documents\Presentations\repo\AutomatedTesting\tests" id="dff46a55-e0e1-4be2-8fce-82a2c8c3eb8a">
+      <Execution id="ad5c0545-dc75-4740-be4b-030e24e1bc39" />
+      <TestMethod codeBase="C:\Users\sarah\Documents\Presentations\repo\AutomatedTesting\tests" adapterTypeName="executor://cat/" className="" name="[Check metric exists]" xmlns="" />
+    </UnitTest>
+    <UnitTest name="[Check metric exists]" storage="C:\Users\sarah\Documents\Presentations\repo\AutomatedTesting\tests" id="4f12a679-fe4c-49b0-bafa-10eca2b63ee7">
+      <Execution id="ad5c0545-dc75-4740-be4b-030e24e1bc39" />
+      <TestMethod codeBase="C:\Users\sarah\Documents\Presentations\repo\AutomatedTesting\tests" adapterTypeName="executor://cat/" className="" name="[Check metric exists]" xmlns="" />
+    </UnitTest>
+    <UnitTest name="[Check metric exists]" storage="C:\Users\sarah\Documents\Presentations\repo\AutomatedTesting\tests" id="745e2882-b674-4398-a87b-66d054dfdf33">
+      <Execution id="ad5c0545-dc75-4740-be4b-030e24e1bc39" />
+      <TestMethod codeBase="C:\Users\sarah\Documents\Presentations\repo\AutomatedTesting\tests" adapterTypeName="executor://cat/" className="" name="[Check metric exists]" xmlns="" />
+    </UnitTest>
+    <UnitTest name="[Check metric exists]" storage="C:\Users\sarah\Documents\Presentations\repo\AutomatedTesting\tests" id="cecc7b99-b189-41a2-a856-5c4de71fe83c">
+      <Execution id="ad5c0545-dc75-4740-be4b-030e24e1bc39" />
+      <TestMethod codeBase="C:\Users\sarah\Documents\Presentations\repo\AutomatedTesting\tests" adapterTypeName="executor://cat/" className="" name="[Check metric exists]" xmlns="" />
+    </UnitTest>
+    <UnitTest name="[Check metric exists]" storage="C:\Users\sarah\Documents\Presentations\repo\AutomatedTesting\tests" id="403f079c-37c9-4f3f-82f4-b8424ff97655">
+      <Execution id="ad5c0545-dc75-4740-be4b-030e24e1bc39" />
+      <TestMethod codeBase="C:\Users\sarah\Documents\Presentations\repo\AutomatedTesting\tests" adapterTypeName="executor://cat/" className="" name="[Check metric exists]" xmlns="" />
+    </UnitTest>
+    <UnitTest name="[Check metric exists]" storage="C:\Users\sarah\Documents\Presentations\repo\AutomatedTesting\tests" id="9bc29d14-715e-45c6-b6d6-7413960920d6">
+      <Execution id="ad5c0545-dc75-4740-be4b-030e24e1bc39" />
+      <TestMethod codeBase="C:\Users\sarah\Documents\Presentations\repo\AutomatedTesting\tests" adapterTypeName="executor://cat/" className="" name="[Check metric exists]" xmlns="" />
+    </UnitTest>
+    <UnitTest name="[Check metric exists]" storage="C:\Users\sarah\Documents\Presentations\repo\AutomatedTesting\tests" id="d6e7d088-6371-4654-b802-584820039dd4">
+      <Execution id="ad5c0545-dc75-4740-be4b-030e24e1bc39" />
+      <TestMethod codeBase="C:\Users\sarah\Documents\Presentations\repo\AutomatedTesting\tests" adapterTypeName="executor://cat/" className="" name="[Check metric exists]" xmlns="" />
+    </UnitTest>
+    <UnitTest name="[Check metric exists]" storage="C:\Users\sarah\Documents\Presentations\repo\AutomatedTesting\tests" id="1ab0e93c-658a-47e5-8695-73a1b0ff38c3">
+      <Execution id="ad5c0545-dc75-4740-be4b-030e24e1bc39" />
+      <TestMethod codeBase="C:\Users\sarah\Documents\Presentations\repo\AutomatedTesting\tests" adapterTypeName="executor://cat/" className="" name="[Check metric exists]" xmlns="" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="f4a3b660-635a-46a6-9c2c-fd73fae19769" executionId="ad5c0545-dc75-4740-be4b-030e24e1bc39" testListId="027efe86-4472-4935-b088-96d3e7bba2ad" />
+    <TestEntry testId="b0bde789-419b-481d-88f6-b3596c112d0d" executionId="ad5c0545-dc75-4740-be4b-030e24e1bc39" testListId="027efe86-4472-4935-b088-96d3e7bba2ad" />
+    <TestEntry testId="a1779db6-6fb8-4ed7-a9bd-8bc5c65fcb49" executionId="ad5c0545-dc75-4740-be4b-030e24e1bc39" testListId="027efe86-4472-4935-b088-96d3e7bba2ad" />
+    <TestEntry testId="65bdec38-934b-4959-b090-815682d65e69" executionId="ad5c0545-dc75-4740-be4b-030e24e1bc39" testListId="027efe86-4472-4935-b088-96d3e7bba2ad" />
+    <TestEntry testId="f22f7825-c8e9-4b08-bd99-213373536bdb" executionId="ad5c0545-dc75-4740-be4b-030e24e1bc39" testListId="027efe86-4472-4935-b088-96d3e7bba2ad" />
+    <TestEntry testId="3b204c31-23d9-4c43-b18b-8cc53ed4f67d" executionId="ad5c0545-dc75-4740-be4b-030e24e1bc39" testListId="027efe86-4472-4935-b088-96d3e7bba2ad" />
+    <TestEntry testId="dff46a55-e0e1-4be2-8fce-82a2c8c3eb8a" executionId="ad5c0545-dc75-4740-be4b-030e24e1bc39" testListId="027efe86-4472-4935-b088-96d3e7bba2ad" />
+    <TestEntry testId="4f12a679-fe4c-49b0-bafa-10eca2b63ee7" executionId="ad5c0545-dc75-4740-be4b-030e24e1bc39" testListId="027efe86-4472-4935-b088-96d3e7bba2ad" />
+    <TestEntry testId="745e2882-b674-4398-a87b-66d054dfdf33" executionId="ad5c0545-dc75-4740-be4b-030e24e1bc39" testListId="027efe86-4472-4935-b088-96d3e7bba2ad" />
+    <TestEntry testId="cecc7b99-b189-41a2-a856-5c4de71fe83c" executionId="ad5c0545-dc75-4740-be4b-030e24e1bc39" testListId="027efe86-4472-4935-b088-96d3e7bba2ad" />
+    <TestEntry testId="403f079c-37c9-4f3f-82f4-b8424ff97655" executionId="ad5c0545-dc75-4740-be4b-030e24e1bc39" testListId="027efe86-4472-4935-b088-96d3e7bba2ad" />
+    <TestEntry testId="9bc29d14-715e-45c6-b6d6-7413960920d6" executionId="ad5c0545-dc75-4740-be4b-030e24e1bc39" testListId="027efe86-4472-4935-b088-96d3e7bba2ad" />
+    <TestEntry testId="d6e7d088-6371-4654-b802-584820039dd4" executionId="ad5c0545-dc75-4740-be4b-030e24e1bc39" testListId="027efe86-4472-4935-b088-96d3e7bba2ad" />
+    <TestEntry testId="1ab0e93c-658a-47e5-8695-73a1b0ff38c3" executionId="ad5c0545-dc75-4740-be4b-030e24e1bc39" testListId="027efe86-4472-4935-b088-96d3e7bba2ad" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="027efe86-4472-4935-b088-96d3e7bba2ad" />
+    <TestList name="All Loaded Results" id="8a5893cf-d6ce-4622-a246-71973a9985c8" />
+  </TestLists>
+  <ResultSummary outcome="Failed">
+    <Counters total="14" executed="14" passed="13" failed="0" error="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>Generated by CAT 1.15.1.1. Developed by Joyful Craftsmen (https://www.joyfulcraftsmen.com).</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>
