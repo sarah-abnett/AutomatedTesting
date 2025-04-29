@@ -44,7 +44,7 @@ stages:
               Import-Module CAT
 
               #Set licence key
-              Set-CatInstance -LicenseKey $licencekey
+              Set-CatInstance -LicenseKey $(CAT_Licence_Key)
 
               # Run CAT project
               Invoke-CatProject -Path $file
