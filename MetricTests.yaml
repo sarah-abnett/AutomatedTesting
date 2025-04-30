@@ -1,96 +1,96 @@
 Tests:
-- Name: Check metric exists
+- Name: Check metric Year exists
   Description: > 
     Check metric exists and is available for visualisation.
   Data Source: SemanticModel
   Query: |
     EVALUATE ROW ("Output",FIRSTNONBLANKVALUE('Date'[Year],1))
   Expectation: set is not empty
-- Name: Check metric exists
+- Name: Check metric Journey Count exists
   Description: > 
     Check metric exists and is available for visualisation.
   Data Source: SemanticModel
   Query: |
     EVALUATE ROW ("Output",'Trip'[Journey Count])
   Expectation: set is not empty
-- Name: Check metric exists
+- Name: Check metric State exists
   Description: > 
     Check metric exists and is available for visualisation.
   Data Source: SemanticModel
   Query: |
     EVALUATE ROW ("Output",FIRSTNONBLANKVALUE('Geography'[State],1))
   Expectation: set is not empty
-- Name: Check metric exists
+- Name: Check metric Journey Count exists
   Description: > 
     Check metric exists and is available for visualisation.
   Data Source: SemanticModel
   Query: |
     EVALUATE ROW ("Output",'Trip'[Journey Count])
   Expectation: set is not empty
-- Name: Check metric exists
+- Name: Check metric Country exists
   Description: > 
     Check metric exists and is available for visualisation.
   Data Source: SemanticModel
   Query: |
     EVALUATE ROW ("Output",FIRSTNONBLANKVALUE('Geography'[Country],1))
   Expectation: set is not empty
-- Name: Check metric exists
+- Name: Check metric MonthName exists
   Description: > 
     Check metric exists and is available for visualisation.
   Data Source: SemanticModel
   Query: |
     EVALUATE ROW ("Output",FIRSTNONBLANKVALUE('Date'[MonthName],1))
   Expectation: set is not empty
-- Name: Check metric exists
+- Name: Check metric Journey Count exists
   Description: > 
     Check metric exists and is available for visualisation.
   Data Source: SemanticModel
   Query: |
     EVALUATE ROW ("Output",'Trip'[Journey Count])
   Expectation: set is not empty
-- Name: Check metric exists
+- Name: Check metric Average Number of Trips exists
   Description: > 
     Check metric exists and is available for visualisation.
   Data Source: SemanticModel
   Query: |
     EVALUATE ROW ("Output",'Trip'[Average Number of Trips])
   Expectation: set is not empty
-- Name: Check metric exists
+- Name: Check metric DayName exists
   Description: > 
     Check metric exists and is available for visualisation.
   Data Source: SemanticModel
   Query: |
     EVALUATE ROW ("Output",FIRSTNONBLANKVALUE('Date'[DayName],1))
   Expectation: set is not empty
-- Name: Check metric exists
+- Name: Check metric HourNumber exists
   Description: > 
     Check metric exists and is available for visualisation.
   Data Source: SemanticModel
   Query: |
     EVALUATE ROW ("Output",FIRSTNONBLANKVALUE('Time'[HourNumber],1))
   Expectation: set is not empty
-- Name: Check metric exists
+- Name: Check metric Average Distance exists
   Description: > 
     Check metric exists and is available for visualisation.
   Data Source: SemanticModel
   Query: |
     EVALUATE ROW ("Output",'Trip'[Average Distance])
   Expectation: set is not empty
-- Name: Check metric exists
+- Name: Check metric HourNumber exists
   Description: > 
     Check metric exists and is available for visualisation.
   Data Source: SemanticModel
   Query: |
     EVALUATE ROW ("Output",FIRSTNONBLANKVALUE('Time'[HourNumber],1))
   Expectation: set is not empty
-- Name: Check metric exists
+- Name: Check metric Journey Count exists
   Description: > 
     Check metric exists and is available for visualisation.
   Data Source: SemanticModel
   Query: |
     EVALUATE ROW ("Output",'Trip'[Journey Count])
   Expectation: set is not empty
-- Name: Check metric exists
+- Name: Check metric ZipCode exists
   Description: > 
     Check metric exists and is available for visualisation.
   Data Source: SemanticModel

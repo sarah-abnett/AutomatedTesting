@@ -95,7 +95,7 @@ EVALUATE ROW ("Output",FIRSTNONBLANKVALUE('$($q.entity)'[$($q.attribute)],1))
 
         # Build the YAML block
         $yamlBlock = @"
-- Name: Check metric exists
+- Name: Check metric $($q.attribute) exists
   Description: > 
     Check metric exists and is available for visualisation.
   Data Source: SemanticModel
