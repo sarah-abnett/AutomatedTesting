@@ -1,7 +1,12 @@
 variables:
 - group: DemoSemanticModel
 
-trigger: none
+schedules:
+- cron: '*/5 * * * *'
+  displayName: 5 min schedule
+  branches:
+    include:
+    - main
 
 pool:
   vmImage: windows-latest
