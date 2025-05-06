@@ -8,7 +8,37 @@
       User ID=%Demo_Service_Principle_Application_ID%;
       Password=%Demo_Service_Principle_Secret%;
 
+- Name: DWH
+  Provider: SqlServer@2
+  Connection string: Server=cfndiqcmgx2utehctemjtnr5y4-m3ewununpi6ujdgph4nn3prgw4.datawarehouse.fabric.microsoft.com;
+      Authentication=Active Directory Service Principal;
+      Database=DemoWarehouse;
+      User Id=%Demo_Service_Principle_User_ID%;
+      Password=%Demo_Service_Principle_Secret%;
+
 Tests:
+- Name: Compare Semantic Model to Datawarehouse
+  Description: To demonstrate the results of two queries
+  First Data Source: SemanticModel
+  First Query: 
+    EVALUATE ROW ("Output",'Trip'[Journey Count])
+  Second Data Source: DWH
+  Second Query: 
+    SELECT COUNT(1) as Output
+    FROM dbo.[Trip]
+  Expectation: Sets Match
+
+- Name: Compare Semantic Model to Datawarehouse (Expect a failure)
+  Description: To demonstrate the results of two queries
+  First Data Source: SemanticModel
+  First Query: 
+    EVALUATE ROW ("Output",'Trip'[Journey Count])
+  Second Data Source: DWH
+  Second Query: 
+    SELECT DISTINCT DateID as Output
+    FROM dbo.[Trip]
+  Expectation: Sets Match
+
 - Name: Check metric Year exists
   Description: > 
     Check metric exists and is available for visualisation.

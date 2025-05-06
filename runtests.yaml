@@ -51,6 +51,7 @@ stages:
           # Set the environment variable values here - using the Library variables
           Demo_Service_Principle_Application_ID: $(Demo_Service_Principle_Application_ID)
           Demo_Service_Principle_Secret: $(Demo_Service_Principle_Secret)
+          Demo_Service_Principle_User_ID: $(Demo_Service_Principle_User_ID)
 
 
       - task: PublishTestResults@2
